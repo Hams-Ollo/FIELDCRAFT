@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pucker Point — Call For Fire</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --bg2: #1a1d26;
+    --bg3: #22263a;
+    --border: rgba(255,255,255,0.08);
+    --border2: rgba(255,255,255,0.15);
+    --text: #e8eaf0;
+    --muted: #7a7f95;
+    --gold: #c8a400;
+    --gold-dim: rgba(200,164,0,0.15);
+    --red: #e24b4a;
+    --red-dim: rgba(226,75,74,0.15);
+    --green: #3db87a;
+    --green-dim: rgba(61,184,122,0.12);
+    --blue: #378add;
+    --blue-dim: rgba(55,138,221,0.12);
+    --amber: #ef9f27;
+    --amber-dim: rgba(239,159,39,0.12);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Courier New', monospace; min-height: 100vh; padding: 1rem; }
+
+  .topbar { display: flex; align-items: center; justify-content: space-between; padding-bottom: 0.75rem; border-bottom: 1px solid var(--border2); margin-bottom: 1rem; }
+  .topbar h1 { font-size: 14px; font-weight: 700; color: var(--gold); letter-spacing: 0.08em; text-transform: uppercase; }
+  .topbar span { font-size: 11px; color: var(--muted); }
+
+  .layout { display: grid; grid-template-columns: 280px 1fr; gap: 1rem; }
+
+  /* TRP list */
+  .trp-list { display: flex; flex-direction: column; gap: 6px; }
+  .trp-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; cursor: pointer; transition: border-color 0.15s, background 0.15s; }
+  .trp-card:hover { border-color: var(--border2); background: var(--bg3); }
+  .trp-card.selected { border-color: var(--gold); background: var(--gold-dim); }
+  .trp-card .trp-name { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+  .trp-card .trp-loc { font-size: 11px; color: var(--muted); margin-bottom: 6px; }
+  .trp-card .trp-stats { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4px; }
+  .trp-card .stat { text-align: center; background: rgba(0,0,0,0.3); border-radius: 4px; padding: 4px 2px; }
+  .trp-card .stat .s-label { font-size: 9px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+  .trp-card .stat .s-val { font-size: 14px; font-weight: 700; color: var(--gold); margin-top: 1px; }
+  .trp-card .trp-pri { display: inline-block; font-size: 9px; padding: 2px 6px; border-radius: 3px; margin-top: 6px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; }
+  .pri-1 { background: var(--red-dim); color: var(--red); }
+  .pri-2 { background: var(--amber-dim); color: var(--amber); }
+  .pri-3 { background: var(--blue-dim); color: var(--blue); }
+
+  .section-label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 6px; font-weight: 700; }
+
+  .add-trp-btn { background: transparent; border: 1px dashed var(--border2); border-radius: 6px; padding: 8px; color: var(--muted); font-family: inherit; font-size: 12px; cursor: pointer; width: 100%; margin-top: 4px; }
+  .add-trp-btn:hover { border-color: var(--gold); color: var(--gold); }
+
+  /* Right panel */
+  .right { display: flex; flex-direction: column; gap: 1rem; }
+
+  /* Fire solution panel */
+  .solution-panel { background: var(--bg2); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; }
+  .solution-panel.active { border-color: var(--gold); }
+  .solution-empty { color: var(--muted); font-size: 13px; text-align: center; padding: 2rem 0; }
+  .solution-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 1rem; }
+  .sol-card { background: var(--bg3); border-radius: 6px; padding: 12px; text-align: center; }
+  .sol-card .sol-label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 6px; }
+  .sol-card .sol-val { font-size: 28px; font-weight: 700; color: var(--gold); line-height: 1; }
+  .sol-card .sol-unit { font-size: 11px; color: var(--muted); margin-top: 3px; }
+  .sol-card.rings .sol-val { color: var(--green); }
+  .sol-card.dir .sol-val { color: var(--blue); }
+
+  /* CFF script */
+  .cff-script { background: var(--bg3); border-radius: 6px; padding: 12px; font-size: 12px; line-height: 1.9; }
+  .cff-script .step { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 2px; }
+  .cff-script .step-num { color: var(--gold); font-weight: 700; min-width: 18px; }
+  .cff-script .step-text { color: var(--text); }
+  .cff-script .step-text em { color: var(--gold); font-style: normal; font-weight: 700; }
+  .cff-script .step-text .adj-input { background: transparent; border: none; border-bottom: 1px solid var(--border2); color: var(--amber); font-family: inherit; font-size: 12px; width: 180px; outline: none; }
+  .cff-script .step-text .adj-input:focus { border-bottom-color: var(--amber); }
+
+  /* Mission log */
+  .log-panel { background: var(--bg2); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; }
+  .log-controls { display: flex; gap: 8px; margin-bottom: 10px; align-items: center; }
+  .log-controls input, .log-controls select { background: var(--bg3); border: 1px solid var(--border2); border-radius: 4px; color: var(--text); font-family: inherit; font-size: 12px; padding: 5px 8px; }
+  .log-controls input { flex: 1; }
+  .log-controls input::placeholder { color: var(--muted); }
+  .log-btn { background: var(--gold); color: #000; border: none; border-radius: 4px; padding: 6px 14px; font-family: inherit; font-size: 12px; font-weight: 700; cursor: pointer; letter-spacing: 0.04em; }
+  .log-btn:hover { background: #e0b800; }
+  .log-table { width: 100%; border-collapse: collapse; font-size: 11px; }
+  .log-table th { color: var(--muted); text-align: left; padding: 4px 8px; border-bottom: 1px solid var(--border); text-transform: uppercase; letter-spacing: 0.05em; font-size: 9px; }
+  .log-table td { padding: 7px 8px; border-bottom: 1px solid var(--border); color: var(--text); }
+  .log-table tr:last-child td { border-bottom: none; }
+  .log-table .target-col { font-weight: 700; }
+  .eff { display: inline-block; font-size: 10px; padding: 2px 6px; border-radius: 3px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+  .eff-hit { background: var(--green-dim); color: var(--green); }
+  .eff-adj { background: var(--amber-dim); color: var(--amber); }
+  .eff-miss { background: var(--red-dim); color: var(--red); }
+  .eff-pending { background: var(--border); color: var(--muted); }
+  .log-empty { color: var(--muted); font-size: 12px; text-align: center; padding: 1.5rem 0; }
+  .del-btn { background: transparent; border: none; color: var(--muted); cursor: pointer; font-size: 14px; padding: 0 4px; }
+  .del-btn:hover { color: var(--red); }
+
+  /* Add TRP modal */
+  .modal-bg { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 100; align-items: center; justify-content: center; }
+  .modal-bg.open { display: flex; }
+  .modal { background: var(--bg2); border: 1px solid var(--border2); border-radius: 10px; padding: 1.25rem; width: 360px; }
+  .modal h2 { font-size: 13px; color: var(--gold); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .modal label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; display: block; margin-bottom: 4px; margin-top: 10px; }
+  .modal input, .modal select { width: 100%; background: var(--bg3); border: 1px solid var(--border2); border-radius: 4px; color: var(--text); font-family: inherit; font-size: 13px; padding: 7px 10px; }
+  .modal-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+  .modal-btns { display: flex; gap: 8px; margin-top: 1rem; }
+  .modal-btns button { flex: 1; padding: 8px; border-radius: 4px; font-family: inherit; font-size: 12px; font-weight: 700; cursor: pointer; border: 1px solid var(--border2); }
+  .btn-confirm { background: var(--gold); color: #000; border-color: var(--gold); }
+  .btn-cancel { background: transparent; color: var(--muted); }
+
+  .rounds-row { display: flex; gap: 8px; align-items: center; }
+  .rounds-row select { background: var(--bg3); border: 1px solid var(--border2); border-radius: 4px; color: var(--text); font-family: inherit; font-size: 12px; padding: 5px 8px; }
+
+  @media (max-width: 700px) {
+    .layout { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <h1>Pucker Point COP — Call For Fire</h1>
+  <span>COP: Grid 085 040 &nbsp;|&nbsp; NA6 Chernarus &nbsp;|&nbsp; M252 / M853A1 HE</span>
+</div>
+
+<div class="layout">
+
+  <!-- LEFT: TRP list -->
+  <div>
+    <div class="section-label">Target Reference Points</div>
+    <div class="trp-list" id="trp-list"></div>
+    <button class="add-trp-btn" onclick="openModal()">+ Add TRP</button>
+  </div>
+
+  <!-- RIGHT: solution + log -->
+  <div class="right">
+
+    <div class="solution-panel" id="solution-panel">
+      <div class="section-label">Firing Solution</div>
+      <div class="solution-empty" id="sol-empty">Select a TRP to display firing solution.</div>
+      <div id="sol-content" style="display:none;">
+        <div class="solution-grid">
+          <div class="sol-card">
+            <div class="sol-label">Elevation</div>
+            <div class="sol-val" id="sol-elev">—</div>
+            <div class="sol-unit">mils</div>
+          </div>
+          <div class="sol-card dir">
+            <div class="sol-label">Direction</div>
+            <div class="sol-val" id="sol-dir">—</div>
+            <div class="sol-unit">mils</div>
+          </div>
+          <div class="sol-card rings">
+            <div class="sol-label">Rings</div>
+            <div class="sol-val" id="sol-rings">—</div>
+            <div class="sol-unit">cheese</div>
+          </div>
+        </div>
+
+        <div class="cff-script">
+          <div class="step"><span class="step-num">1</span><span class="step-text">"Mortar, Blue Falcon — <em>Fire Mission</em>, over." &nbsp;<span style="color:var(--muted);font-size:10px;">wait for acknowledge</span></span></div>
+          <div class="step"><span class="step-num">2</span><span class="step-text">"Grid <em id="cff-grid">—</em>."</span></div>
+          <div class="step"><span class="step-num">3</span><span class="step-text">"<em id="cff-desc">Enemy position</em>."</span></div>
+          <div class="step"><span class="step-num">4</span><span class="step-text">"HE — <span id="rounds-select-wrap"></span> rounds — <em>Ring <span id="cff-rings">—</span></em> — fire for effect."</span></div>
+          <div class="step"><span class="step-num">5</span><span class="step-text">Observe. Adjust: <input class="adj-input" id="adj-input" placeholder='e.g. "Add 50, Left 20"' /></span></div>
+          <div class="step"><span class="step-num">6</span><span class="step-text"><em>"Target destroyed. End of mission."</em> &nbsp;—or—&nbsp; Shift to next TRP.</span></div>
+        </div>
+
+        <div style="display:flex; gap:8px; margin-top:10px;">
+          <select id="effect-select" style="background:var(--bg3);border:1px solid var(--border2);border-radius:4px;color:var(--text);font-family:inherit;font-size:12px;padding:5px 8px;flex:1;">
+            <option value="pending">Effect: Pending</option>
+            <option value="hit">Effect: Target destroyed</option>
+            <option value="adj">Effect: Adjusted — ongoing</option>
+            <option value="miss">Effect: No effect</option>
+          </select>
+          <button class="log-btn" onclick="logCurrentMission()">Log Mission</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="log-panel">
+      <div class="section-label">Mission Log</div>
+      <div id="log-table-wrap">
+        <div class="log-empty" id="log-empty">No missions logged this session.</div>
+        <table class="log-table" id="log-table" style="display:none;">
+          <thead><tr>
+            <th>#</th><th>Time</th><th>Target</th><th>Elev</th><th>Dir</th><th>Rings</th><th>Rounds</th><th>Adjustment</th><th>Effect</th><th></th>
+          </tr></thead>
+          <tbody id="log-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Add TRP Modal -->
+<div class="modal-bg" id="modal-bg">
+  <div class="modal">
+    <h2>Add Target Reference Point</h2>
+    <label>Target name</label>
+    <input id="m-name" placeholder="e.g. Vybor crossroads" />
+    <label>Location / grid</label>
+    <input id="m-loc" placeholder="e.g. Grid 047 052" />
+    <label>Description (for CFF script)</label>
+    <input id="m-desc" placeholder="e.g. Enemy FOB under construction" />
+    <div class="modal-row">
+      <div><label>Elevation (mils)</label><input id="m-elev" type="number" placeholder="987" /></div>
+      <div><label>Direction (mils)</label><input id="m-dir" type="number" placeholder="853" /></div>
+      <div><label>Rings</label><input id="m-rings" type="number" min="0" max="4" placeholder="3" /></div>
+    </div>
+    <label>Priority</label>
+    <select id="m-pri">
+      <option value="1">1 — High (primary objective)</option>
+      <option value="2">2 — Medium (FOB / supply)</option>
+      <option value="3">3 — Low (secondary)</option>
+    </select>
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="closeModal()">Cancel</button>
+      <button class="btn-confirm" onclick="addTRP()">Add TRP</button>
+    </div>
+  </div>
+</div>
+
+<script>
+let trps = [
+  { name: "Mogilevka — Main Base",     loc: "Grid 063 043", desc: "Enemy main base — Phoenix objective",     elev: 1025, dir: 5703, rings: 2, pri: 1 },
+  { name: "Chernogorsk — Main Base",   loc: "Grid 055 030", desc: "Enemy main base — Alabama objective",    elev: 1150, dir: 4039, rings: 4, pri: 1 },
+  { name: "Elektrozavodsk — Main",     loc: "Grid 075 030", desc: "Enemy main base — Dayton objective",     elev: 1074, dir: 2325, rings: 4, pri: 1 },
+  { name: "Staroye — Main",            loc: "Grid 083 047", desc: "Enemy main base — Utah/Sunburst obj.",   elev:  987, dir:  853, rings: 3, pri: 1 },
+];
+
+let missions = [];
+let selected = null;
+
+const priLabel = { 1: 'pri-1', 2: 'pri-2', 3: 'pri-3' };
+const priText  = { 1: 'Priority 1', 2: 'Priority 2', 3: 'Priority 3' };
+
+function renderTRPs() {
+  const list = document.getElementById('trp-list');
+  list.innerHTML = '';
+  trps.forEach((t, i) => {
+    const el = document.createElement('div');
+    el.className = 'trp-card' + (selected === i ? ' selected' : '');
+    el.innerHTML = `
+      <div class="trp-name">${t.name}</div>
+      <div class="trp-loc">${t.loc}</div>
+      <div class="trp-stats">
+        <div class="stat"><div class="s-label">Elev</div><div class="s-val">${t.elev}</div></div>
+        <div class="stat"><div class="s-label">Dir</div><div class="s-val">${t.dir}</div></div>
+        <div class="stat"><div class="s-label">Rings</div><div class="s-val">${t.rings}</div></div>
+      </div>
+      <span class="trp-pri ${priLabel[t.pri]}">${priText[t.pri]}</span>`;
+    el.onclick = () => selectTRP(i);
+    list.appendChild(el);
+  });
+}
+
+function selectTRP(i) {
+  selected = i;
+  renderTRPs();
+  const t = trps[i];
+  document.getElementById('sol-empty').style.display = 'none';
+  document.getElementById('sol-content').style.display = 'block';
+  document.getElementById('solution-panel').classList.add('active');
+  document.getElementById('sol-elev').textContent = t.elev;
+  document.getElementById('sol-dir').textContent = t.dir;
+  document.getElementById('sol-rings').textContent = t.rings;
+  document.getElementById('cff-grid').textContent = t.loc.replace('Grid ', '');
+  document.getElementById('cff-desc').textContent = t.desc;
+  document.getElementById('cff-rings').textContent = t.rings;
+  document.getElementById('adj-input').value = '';
+  document.getElementById('effect-select').value = 'pending';
+
+  // rounds selector
+  const wrap = document.getElementById('rounds-select-wrap');
+  wrap.innerHTML = '';
+  const sel = document.createElement('select');
+  sel.id = 'rounds-count';
+  sel.style.cssText = 'background:var(--bg3);border:1px solid var(--border2);border-radius:4px;color:var(--gold);font-family:inherit;font-size:13px;font-weight:700;padding:2px 6px;';
+  [1,2,3,4,5,6].forEach(n => {
+    const o = document.createElement('option');
+    o.value = n; o.textContent = n;
+    if (n === 3) o.selected = true;
+    sel.appendChild(o);
+  });
+  wrap.appendChild(sel);
+}
+
+function logCurrentMission() {
+  if (selected === null) return;
+  const t = trps[selected];
+  const rounds = document.getElementById('rounds-count')?.value || '3';
+  const adj = document.getElementById('adj-input').value.trim();
+  const effect = document.getElementById('effect-select').value;
+  const now = new Date();
+  const time = now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0');
+  missions.unshift({ target: t.name, loc: t.loc, elev: t.elev, dir: t.dir, rings: t.rings, rounds, adj, effect, time });
+  renderLog();
+}
+
+function renderLog() {
+  const empty = document.getElementById('log-empty');
+  const table = document.getElementById('log-table');
+  const tbody = document.getElementById('log-body');
+  if (!missions.length) { empty.style.display = 'block'; table.style.display = 'none'; return; }
+  empty.style.display = 'none'; table.style.display = 'table';
+  const effClass = { hit: 'eff-hit', adj: 'eff-adj', miss: 'eff-miss', pending: 'eff-pending' };
+  const effLabel = { hit: 'Destroyed', adj: 'Adjusted', miss: 'No effect', pending: 'Pending' };
+  tbody.innerHTML = missions.map((m, i) => `
+    <tr>
+      <td style="color:var(--muted)">${missions.length - i}</td>
+      <td style="color:var(--muted)">${m.time}</td>
+      <td class="target-col">${m.target}</td>
+      <td>${m.elev}</td>
+      <td>${m.dir}</td>
+      <td style="color:var(--green)">${m.rings}</td>
+      <td>${m.rounds}</td>
+      <td style="color:var(--amber);font-size:10px;">${m.adj || '—'}</td>
+      <td><span class="eff ${effClass[m.effect]}">${effLabel[m.effect]}</span></td>
+      <td><button class="del-btn" onclick="removeMission(${i})">×</button></td>
+    </tr>`).join('');
+}
+
+function removeMission(i) { missions.splice(i,1); renderLog(); }
+
+function openModal() { document.getElementById('modal-bg').classList.add('open'); }
+function closeModal() { document.getElementById('modal-bg').classList.remove('open'); }
+
+function addTRP() {
+  const name = document.getElementById('m-name').value.trim();
+  const loc  = document.getElementById('m-loc').value.trim();
+  const desc = document.getElementById('m-desc').value.trim();
+  const elev = parseInt(document.getElementById('m-elev').value);
+  const dir  = parseInt(document.getElementById('m-dir').value);
+  const rings= parseInt(document.getElementById('m-rings').value);
+  const pri  = parseInt(document.getElementById('m-pri').value);
+  if (!name || isNaN(elev) || isNaN(dir) || isNaN(rings)) return;
+  trps.push({ name, loc, desc: desc || 'Enemy position', elev, dir, rings, pri });
+  renderTRPs();
+  closeModal();
+  ['m-name','m-loc','m-desc','m-elev','m-dir','m-rings'].forEach(id => document.getElementById(id).value = '');
+}
+
+document.getElementById('modal-bg').addEventListener('click', e => { if (e.target === e.currentTarget) closeModal(); });
+
+renderTRPs();
+renderLog();
+</script>
+</body>
+</html>
