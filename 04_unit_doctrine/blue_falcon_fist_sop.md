@@ -1,4 +1,4 @@
-# ZEN SOLUTIONS — BLUE FALCON FIST & RECON SOP
+# 🦅 ZEN SOLUTIONS — BLUE FALCON FIST & RECON SOP
 ## Fire Support and Long Range Reconnaissance — WCS Server Edition
 
 > **Classification:** Community SOP | Zen Solutions | discord.armawcs.com
@@ -23,7 +23,7 @@
 
 ---
 
-## 1. Unit Mission and Purpose
+## 1. 🎯 Unit Mission and Purpose
 
 Blue Falcon is Zen Solutions' dedicated Fire Support and Long Range Reconnaissance element operating on WCS Realism servers. The unit's mission is threefold:
 
@@ -37,7 +37,7 @@ This is not a glamour role. Blue Falcon wins matches quietly, from treelines and
 
 ---
 
-## 2. Understanding the Radio Spawn System
+## 2. 📡 Understanding the Radio Spawn System
 
 This is one of the most underutilized mechanics in Arma Reforger and the foundation of Blue Falcon's entire operational capability.
 
@@ -76,7 +76,7 @@ For Blue Falcon's forward OP strategy, **deploy on the ground** at a concealed p
 
 ---
 
-## 3. Establishing the Combat Outpost — Two Methods
+## 3. 🏕️ Establishing the Combat Outpost — Two Methods
 
 ### Method A: MCU-Based COP (Preferred — Full Build)
 
@@ -103,7 +103,7 @@ Drive a **construction truck** loaded with supplies to the COP location. A squad
 
 ---
 
-## 4. Pucker Point COP — Standard Build Order
+## 4. 📍 Pucker Point COP — Standard Build Order
 
 **Reference position:** Grid 085 040, Chernarus — treeline north of Prigorodki road, between Pusta and the Chernihiv-Elektrozavodsk axis. Provides mortar coverage of all four primary objectives.
 
@@ -111,7 +111,7 @@ Drive a **construction truck** loaded with supplies to the COP location. A squad
 
 Build in this order. Each phase enables the next.
 
-### Phase 1: Establish the Anchor
+### 📌 Phase 1: Establish the Anchor
 
 | Step | Action | Why |
 |---|---|---|
@@ -119,7 +119,7 @@ Build in this order. Each phase enables the next.
 | 2 | Deploy radio pack at a secondary concealed position | Backup spawn if MCU is destroyed or bugged |
 | 3 | Confirm radio coverage reaches COP location | If not, radio relay station goes up before anything else |
 
-### Phase 2: Logistics Infrastructure
+### 🚚 Phase 2: Logistics Infrastructure
 
 | Step | Action | Why |
 |---|---|---|
@@ -128,7 +128,7 @@ Build in this order. Each phase enables the next.
 | 6 | Build Light Vehicle Depot | Scout and patrol vehicles, light transport for LRRP teams |
 | 7 | Build Living Quarters (requires Sergeant) | Spawns defensive AI. Halves respawn supply cost across all spawns at this position. |
 
-### Phase 3: Fire Support
+### 💥 Phase 3: Fire Support
 
 | Step | Action | Why |
 |---|---|---|
@@ -136,7 +136,7 @@ Build in this order. Each phase enables the next.
 | 9 | Pre-register all TRPs using mortar calculator | Fire missions execute in seconds, not minutes |
 | 10 | Stock mortar pits with HE shells (M853A1) | M252 primary platform. Ring 3 standard area; Ring 0–2 for precision point targets |
 
-### Phase 4: Perimeter Defense
+### 🛡️ Phase 4: Perimeter Defense
 
 | Step | Action | Why |
 |---|---|---|
@@ -155,7 +155,7 @@ This reflects the same principles used to establish patrol bases in real operati
 
 ---
 
-## 5. Long Range Reconnaissance Patrol (LRRP)
+## 5. 🔭 Long Range Reconnaissance Patrol (LRRP)
 
 The LRRP is Blue Falcon's primary intelligence-gathering operation. From Pucker Point, recon elements push out on foot or via light vehicle to establish forward observation posts overlooking primary enemy objectives.
 
@@ -202,7 +202,7 @@ This is the difference between a one-time patrol and a persistent intelligence a
 
 ---
 
-## 6. Sniper / Spotter Pair Doctrine
+## 6. 🎯 Sniper / Spotter Pair Doctrine
 
 The sniper/spotter pair is the precision element of Blue Falcon. Their primary function is intelligence and fire mission support — not body count.
 

@@ -1,4 +1,4 @@
-# WORST CASE SCENARIO — ARMA REFORGER
+# 🪖 WORST CASE SCENARIO — ARMA REFORGER
 ## Complete Onboarding Guide: Noob to Operator
 
 > **WCS Server Community Guide** | discord.armawcs.com | armawcs.wiki.gg
@@ -25,7 +25,7 @@
 
 ---
 
-## PART 1: What Is Arma Reforger & WCS? {#part-1}
+## PART 1: 🎮 What Is Arma Reforger & WCS? {#part-1}
 
 ### The Game
 
@@ -50,7 +50,7 @@ WCS runs **16+ servers globally** across multiple maps. All servers are free to 
 
 ---
 
-## PART 2: Getting Started — Before You Join {#part-2}
+## PART 2: 🚀 Getting Started — Before You Join {#part-2}
 
 ### Step 1: Play the In-Game Tutorial FIRST
 
@@ -78,7 +78,7 @@ WCS servers require their custom mods. Here is how to get them:
 
 ---
 
-## PART 3: The Conflict Game Mode — How to Win {#part-3}
+## PART 3: 🏹 The Conflict Game Mode — How to Win {#part-3}
 
 ### The Core Objective
 
@@ -121,7 +121,7 @@ You **CANNOT** capture a base unless it is within your faction's radio range. Ra
 
 ---
 
-## PART 4: Logistics — The Lifeblood {#part-4}
+## PART 4: 🚚 Logistics — The Lifeblood {#part-4}
 
 ### Why Logistics Matters More Than Gunfighting
 
@@ -151,7 +151,7 @@ The team with better logistics wins — period. Supplies are required for everyt
 
 ---
 
-## PART 5: Base Building — Establishing the FOB {#part-5}
+## PART 5: 🏗️ Base Building — Establishing the FOB {#part-5}
 
 ### What Is a FOB and Why Does It Matter?
 
@@ -181,7 +181,7 @@ A Forward Operating Base provides a spawn point closer to the action, an arsenal
 
 ---
 
-## PART 6: Loadouts & The WCS Arsenal {#part-6}
+## PART 6: 🔫 Loadouts & The WCS Arsenal {#part-6}
 
 ### The Weight System
 
@@ -223,7 +223,7 @@ Medics use **your** supplies first before pulling from their own pack. Every sol
 
 ---
 
-## PART 7: Role Guides — Find Your Fit {#part-7}
+## PART 7: 🎖️ Role Guides — Find Your Fit {#part-7}
 
 ### 1. Assault Rifleman — Tip of the Spear
 
@@ -311,7 +311,7 @@ This role wins matches. While others fight, logistics operators build the infras
 
 ---
 
-## PART 8: Communications SOP {#part-8}
+## PART 8: 📡 Communications SOP {#part-8}
 
 > ⚠️ **SERVER RULE:** Use English in ALL platoon voice channels. No music or spam. Squad Leaders, Pilots, and Armor Commanders **MUST** have active microphones.
 
@@ -345,7 +345,7 @@ This role wins matches. While others fight, logistics operators build the infras
 
 ---
 
-## PART 9: Combat Fundamentals — Fighting Smart {#part-9}
+## PART 9: ⚔️ Combat Fundamentals — Fighting Smart {#part-9}
 
 ### Movement and Spacing
 
@@ -387,7 +387,7 @@ WCS supply trucks are high-value targets. The L-shape ambush is ideal for road i
 
 ---
 
-## PART 10: Map-Specific Strategies {#part-10}
+## PART 10: 🗺️ Map-Specific Strategies {#part-10}
 
 ### WCS Map Overview
 
@@ -409,7 +409,7 @@ WCS supply trucks are high-value targets. The L-shape ambush is ideal for road i
 
 ---
 
-## PART 11: Call for Fire — Artillery and CAS {#part-11}
+## PART 11: 💥 Call for Fire — Artillery and CAS {#part-11}
 
 ### When to Call For Fire
 
@@ -430,7 +430,7 @@ Recon elements and forward observers do NOT attack high-value targets directly. 
 
 ---
 
-## PART 12: WCS Server Rules — Don't Get Banned {#part-12}
+## PART 12: 🚫 WCS Server Rules — Don't Get Banned {#part-12}
 
 WCS operates a **shared ban system across all 16+ servers**. A ban on one server is a ban on all WCS servers.
 
@@ -447,7 +447,7 @@ WCS operates a **shared ban system across all 16+ servers**. A ban on one server
 
 ---
 
-## PART 13: Rank Progression {#part-13}
+## PART 13: 📈 Rank Progression {#part-13}
 
 ### Why Rank Matters
 
@@ -464,7 +464,7 @@ Rank on WCS servers unlocks access to better gear, vehicles, and the ability to 
 
 ---
 
-## PART 14: Quick Reference Checklists {#part-14}
+## PART 14: ✅ Quick Reference Checklists {#part-14}
 
 ### Pre-Spawn Checklist
 
@@ -495,7 +495,7 @@ Rank on WCS servers unlocks access to better gear, vehicles, and the ability to 
 
 ---
 
-## PART 15: Community & Learning Resources {#part-15}
+## PART 15: 🤝 Community & Learning Resources {#part-15}
 
 ### Official WCS Resources
 

@@ -1,4 +1,4 @@
-# ZEN SOLUTIONS — ARMA REFORGER TACTICAL KNOWLEDGE BASE
+# 🪖 ZEN SOLUTIONS — ARMA REFORGER TACTICAL KNOWLEDGE BASE
 ### An Open Community Library for WCS Realism Servers
 
 > **Maintained by:** Zen Solutions Community
@@ -8,7 +8,7 @@
 
 ---
 
-## ABOUT THIS LIBRARY
+## 📚 ABOUT THIS LIBRARY
 
 This is a living field manual for Arma Reforger — built by veterans and experienced players, written for everyone from first-session recruits to seasoned squad leaders.
 
@@ -18,32 +18,32 @@ This is not a tryhard document. It is designed to be approachable, consumable, a
 
 ---
 
-## WHO THIS IS FOR
+## 👥 WHO THIS IS FOR
 
-- **New players** who just joined their first WCS server and have no idea what is happening
-- **Intermediate players** who can fight but want to understand why organized squads dominate
-- **Squad leaders** who want to coordinate beyond just pointing at objectives
-- **Community builders** who want to seed better server culture and help newer players
-- **Any milsim player** — the doctrine in this library applies beyond WCS to any Arma server
+- 🆕 **New players** who just joined their first WCS server and have no idea what is happening
+- ⚔️ **Intermediate players** who can fight but want to understand why organized squads dominate
+- ⭐ **Squad leaders** who want to coordinate beyond just pointing at objectives
+- 🤝 **Community builders** who want to seed better server culture and help newer players
+- 🎮 **Any milsim player** — the doctrine in this library applies beyond WCS to any Arma server
 
 ---
 
-## HOW TO USE THIS LIBRARY
+## 🧭 HOW TO USE THIS LIBRARY
 
 | Your situation | Start here |
 |---|---|
-| Never played Arma Reforger | `00_start_here/new_player_fast_start.md` |
-| Played vanilla, new to WCS | `00_start_here/wcs_orientation.md` |
-| Want to learn a specific role | `02_role_guides/` |
-| Need tactical procedures | `03_tactical_sop/` |
-| Blue Falcon / FIST team | `04_unit_doctrine/blue_falcon_fist_sop.md` |
-| Planning a session | `04_unit_doctrine/mission_planning_framework.md` |
-| Need map intel | `05_map_intelligence/` |
-| Need the CFF app or tools | `06_tools/` |
+| 🆕 Never played Arma Reforger | `00_start_here/new_player_fast_start.md` |
+| 🎮 Played vanilla, new to WCS | `00_start_here/wcs_orientation.md` |
+| 🎖️ Want to learn a specific role | `02_role_guides/` |
+| 📋 Need tactical procedures | `03_tactical_sop/` |
+| 🦅 Blue Falcon / FIST team | `04_unit_doctrine/blue_falcon_fist_sop.md` |
+| 📝 Planning a session | `04_unit_doctrine/mission_planning_framework.md` |
+| 🗺️ Need map intel | `05_map_intelligence/` |
+| 🔧 Need the CFF app or tools | `06_tools/` |
 
 ---
 
-## REPOSITORY STRUCTURE
+## 📁 REPOSITORY STRUCTURE
 
 ```
 zen-solutions-arma-kb/

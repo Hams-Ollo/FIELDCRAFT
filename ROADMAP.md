@@ -1,10 +1,10 @@
-# ROADMAP — ZEN SOLUTIONS ARMA REFORGER KB
+# 📍 ROADMAP — ZEN SOLUTIONS ARMA REFORGER KB
 
 This document tracks what exists, what is in progress, and what is planned. Updated as content is added.
 
 ---
 
-## PHASE 1 — FOUNDATION (Current)
+## 🏗️ PHASE 1 — FOUNDATION (Current)
 
 Core documents that every player needs. Priority is getting new players functional fast and giving experienced players a shared reference.
 
@@ -26,7 +26,7 @@ Core documents that every player needs. Priority is getting new players function
 
 ---
 
-## PHASE 2 — ROLE GUIDES (Next Priority)
+## 🎖️ PHASE 2 — ROLE GUIDES (Next Priority)
 
 Standalone guides for each role. Each one covers: what the role does, why it matters, loadout, tactics, and how it fits into the squad.
 
@@ -43,7 +43,7 @@ Standalone guides for each role. Each one covers: what the role does, why it mat
 
 ---
 
-## PHASE 3 — TACTICAL SOPs
+## 📋 PHASE 3 — TACTICAL SOPs
 
 Procedures that standardize how Zen Solutions and community members execute specific tactical tasks.
 
@@ -57,7 +57,7 @@ Procedures that standardize how Zen Solutions and community members execute spec
 
 ---
 
-## PHASE 4 — MAP INTELLIGENCE
+## 🗺️ PHASE 4 — MAP INTELLIGENCE
 
 One document per active WCS map. Each covers: key terrain, supply routes, radio relay priorities, FOB positions, historical engagement patterns, mortar coverage zones.
 
@@ -72,7 +72,7 @@ One document per active WCS map. Each covers: key terrain, supply routes, radio 
 
 ---
 
-## PHASE 5 — ADVANCED DOCTRINE
+## ⭐ PHASE 5 — ADVANCED DOCTRINE
 
 For experienced players and unit leaders.
 
@@ -85,7 +85,7 @@ For experienced players and unit leaders.
 
 ---
 
-## FUTURE CONSIDERATIONS
+## 🔮 FUTURE CONSIDERATIONS
 
 - Adaptation guide for other Arma Reforger servers (non-WCS)
 - Video companion content linked from docs
@@ -94,6 +94,6 @@ For experienced players and unit leaders.
 
 ---
 
-## HOW TO CONTRIBUTE TO THE ROADMAP
+## 🤝 HOW TO CONTRIBUTE TO THE ROADMAP
 
 If you have content to contribute toward any item marked "Needed," open a pull request or reach out on the WCS Discord. See `CONTRIBUTING.md` for guidelines.

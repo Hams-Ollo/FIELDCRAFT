@@ -1,4 +1,4 @@
-# TACTICAL FUNDAMENTALS
+# ⚔️ TACTICAL FUNDAMENTALS
 ## Doctrine-Grounded Combat Principles for WCS Conflict
 
 > **Doctrine basis:** ATP 3-21.8 (Infantry Platoon and Squad), FM 3-21.8
@@ -6,7 +6,7 @@
 
 ---
 
-## THE FOUNDATION: FIRE AND MOVEMENT
+## 🔥 THE FOUNDATION: FIRE AND MOVEMENT
 
 Every tactical action in Arma Reforger — and in real infantry combat — rests on a single principle:
 
@@ -19,7 +19,7 @@ Every formation, every SOP, every tactic in this library is an application of th
 
 ---
 
-## METT-TC: THE DECISION FRAMEWORK
+## 🧭 METT-TC: THE DECISION FRAMEWORK
 
 Before any tactical decision — where to push, when to assault, how to move — military leaders use METT-TC to analyze the situation. In WCS Conflict, this translates directly:
 
@@ -36,7 +36,7 @@ Running a quick mental METT-TC before a push takes thirty seconds. It prevents t
 
 ---
 
-## OCOKA: READING THE TERRAIN
+## 🏔️ OCOKA: READING THE TERRAIN
 
 Terrain analysis uses the OCOKA framework. Use this when selecting any position — FOB location, observation post, ambush site, mortar pit, MG nest.
 
@@ -52,7 +52,7 @@ Pucker Point COP exists because a proper OCOKA analysis of the Chernarus terrain
 
 ---
 
-## MOVEMENT FORMATIONS
+## 🟦 MOVEMENT FORMATIONS
 
 *Based on ATP 3-21.8 Chapter 3 — adapted for Arma squad mechanics*
 
@@ -116,7 +116,7 @@ This is how you cross open ground without dying. The element providing overwatch
 
 ---
 
-## IMMEDIATE ACTION DRILLS
+## ⚡ IMMEDIATE ACTION DRILLS
 
 Immediate action drills are pre-planned responses to specific situations. They must be fast because there is no time to plan under fire. The unit that reacts first controls the situation.
 
@@ -147,7 +147,7 @@ When the fight is lost or the position is untenable:
 
 ---
 
-## SUPPORT BY FIRE — THE CORE OFFENSIVE TACTIC
+## 🎯 SUPPORT BY FIRE — THE CORE OFFENSIVE TACTIC
 
 Support by fire (SBF) is how small units defeat larger defending forces. It is the direct application of fire and movement to the offense.
 
@@ -165,7 +165,7 @@ Support by fire (SBF) is how small units defeat larger defending forces. It is t
 
 ---
 
-## THE L-SHAPE AMBUSH
+## 🩤 THE L-SHAPE AMBUSH
 
 The L-shape ambush is specifically designed to destroy vehicles and logistic convoys — the most valuable targets on a WCS server.
 
@@ -188,7 +188,7 @@ The L-shape ambush is specifically designed to destroy vehicles and logistic con
 
 ---
 
-## DEFENSIVE FUNDAMENTALS
+## 🛡️ DEFENSIVE FUNDAMENTALS
 
 When defending a position — FOB, captured objective, or COP — the same principles apply in reverse:
 
@@ -202,7 +202,7 @@ When defending a position — FOB, captured objective, or COP — the same princ
 
 ---
 
-## THE FIVE FUNDAMENTALS OF EVERY SOLDIER
+## ⭐ THE FIVE FUNDAMENTALS OF EVERY SOLDIER
 
 ATP 3-21.8 identifies five fundamental skills every infantry soldier must master. In WCS, these translate directly:
 
