@@ -15,7 +15,7 @@ One document per active WCS map. Each covers: key terrain, supply routes, radio 
 | New Everon | [new_everon.md](new_everon.md) | ✅ Complete | 15+ locations; island map; peninsula choke; largest WCS map |
 | Glenwood | [glenwood.md](glenwood.md) | ✅ Complete | 18 locations; river N-S through center; decisive bridge terrain |
 | Rahhaliyah | [rahhaliyah.md](rahhaliyah.md) | ✅ Complete | 12 locations; desert; longest engagement ranges; combined arms mandatory |
-| Chernarus | chernarus.md | 🔶 In Progress | Pucker Point data strong; full treatment needed |
+| Chernarus | [chernarus.md](chernarus.md) | ✅ Complete | 14 locations; NE-SW axis; dual-corridor map; Pucker Point documented |
 
 ---
 

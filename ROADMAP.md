@@ -2,7 +2,7 @@
 
 This document tracks what exists, what is in progress, and what is planned. Updated as content is added.
 
-> **Last updated:** March 2026 — Map Intelligence batch complete. 5 map files added (Rostov, Serhiivka, New Everon, Glenwood, Rahhaliyah). Faction assignments removed — all files now spawn-side-neutral.
+> **Last updated:** March 2026 — Chernarus map intelligence complete. All 6 active WCS maps now fully documented. Full codename pool, dual-corridor analysis, Pucker Point position intentionally undisclosed.
 
 ---
 
@@ -26,6 +26,7 @@ This document tracks what exists, what is in progress, and what is planned. Upda
 | MEDEVAC SOP | New file — full 9-line format, CASEVAC vs MEDEVAC, triage precedence, LZ procedures, buddy aid |
 | Map Intelligence (5 maps) | New files — Rostov, Serhiivka, New Everon, Glenwood, Rahhaliyah; locations, codename rotation system, OCOKA terrain, supply routes, strategic priority, relay chain, mortar TRP notes |
 | All map files | Spawn-side neutrality pass — all faction labels replaced with geographic (north/south/west/east) spawn references |
+| Chernarus map intel | New file — 14 locations, NE-SW dual-corridor axis, Pucker Point concept documented (grid withheld), full OCOKA/supply/relay/mortar treatment |
 
 ---
 
@@ -89,7 +90,7 @@ One document per active WCS map. Each covers: key terrain, supply routes, radio 
 
 | Map | Status | Notes |
 |---|---|---|
-| Chernarus | 🔶 Partial | Pucker Point data strong. Full map intel needed — no screenshot captured yet. |
+| Chernarus | ✅ Complete | 14 locations; NE-SW axis; dual-corridor (coastal + interior); Pucker Point concept documented (grid withheld); full OCOKA, supply routes, relay, mortar notes |
 | New Everon | ✅ Complete | 15+ locations, peninsula choke, OCOKA, supply routes, relay chain, AAS mode notes |
 | Glenwood | ✅ Complete | 18 locations, river crossing terrain, mines sector, east/west supply routes |
 | Serhiivka | ✅ Complete | 12 locations, W-E axis, urban CQB center, river flank |

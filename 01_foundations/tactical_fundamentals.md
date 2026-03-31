@@ -48,7 +48,7 @@ Terrain analysis uses the OCOKA framework. Use this when selecting any position 
 | **K** — Key Terrain | What ground, if held, gives decisive advantage? | High ground with observation, bridge crossings, radio tower positions |
 | **A** — Avenues of Approach | How will the enemy come at you? | Main roads, ridgelines, valley floors — the likely routes for armor and trucks |
 
-Pucker Point COP exists because a proper OCOKA analysis of the Chernarus terrain identified that grid 085 040 provides observation over all four primary objectives, concealment from all major approach routes, and cover from direct observation in the treeline.
+Pucker Point COP exists because a proper OCOKA analysis of the Chernarus terrain identified a specific elevated position — exact grid undisclosed — that provides observation over multiple primary objectives, concealment from all major approach routes, and cover from direct observation in the treeline. The position rewards those who do the analysis themselves rather than following a waypoint.
 
 ---
 
