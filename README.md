@@ -66,11 +66,15 @@ FIELDCRAFT/
 │   ├── logistics_operator.md             ← Supply economy, truck ops, AI drivers
 │   ├── commander.md                      ← Three command systems, rank gates, AI teams
 │   ├── sniper_recon.md                   ← FFP selection, rangefinder, target priority
-│   └── machine_gunner.md                ← Rates of fire, talking guns, AG mechanics
+│   ├── machine_gunner.md                ← Rates of fire, talking guns, AG mechanics
+│   └── assault_rifleman.md              ← Fire team wedge, buddy pairs, fire and movement
 │
 ├── 03_tactical_sop/
 │   ├── movement_and_formations.md        ← ATP 3-21.8: formations, bounding, peel
-│   └── call_for_fire_sop.md             ← FM 6-30 observer procedures + mortar operator
+│   ├── call_for_fire_sop.md             ← FM 6-30 observer procedures + mortar operator
+│   ├── react_to_contact.md              ← Battle Drill 1: 3 Ds, fire and movement, break contact
+│   ├── ambush_sop.md                    ← FM 7-8: L-shape, vehicle sequencing, supply interdiction
+│   └── medevac_sop.md                   ← 9-line format, CASEVAC, LZ procedures, buddy aid
 │
 ├── 04_unit_doctrine/
 │   ├── blue_falcon_fist_sop.md          ← Fire support and long-range recon doctrine
@@ -100,10 +104,14 @@ FIELDCRAFT/
 - [Commander](02_role_guides/commander.md) — Three command systems, rank gates, AI fire teams
 - [Sniper / Recon](02_role_guides/sniper_recon.md) — FFP selection, rangefinder techniques, SALUTE, synchronized fire
 - [Machine Gunner](02_role_guides/machine_gunner.md) — Rates of fire, AG mechanics, talking guns
+- [Assault Rifleman](02_role_guides/assault_rifleman.md) — Fire team wedge, buddy pairs, fire discipline, SBF and assault element execution
 
 **Tactical SOPs**
 - [Movement & Formations](03_tactical_sop/movement_and_formations.md) — ATP 3-21.8 formations, buddy teams, bounding, peel techniques
 - [Call for Fire SOP](03_tactical_sop/call_for_fire_sop.md) — FM 6-30 observer procedures + full mortar operator handbook
+- [React to Contact SOP](03_tactical_sop/react_to_contact.md) — Battle Drill 1: 3 Ds, fire and movement, break contact peel drill, react to ambush
+- [Ambush SOP](03_tactical_sop/ambush_sop.md) — FM 7-8 ambush formations, vehicle sequencing, two-man search, supply route interdiction
+- [MEDEVAC SOP](03_tactical_sop/medevac_sop.md) — Full 9-line format, CASEVAC vs MEDEVAC, LZ procedures, buddy aid
 
 **Unit Doctrine**
 - [Blue Falcon FIST SOP](04_unit_doctrine/blue_falcon_fist_sop.md) — Fire support & long-range recon doctrine
@@ -149,8 +157,8 @@ Read `CONTRIBUTING.md` and open a pull request. All contributions are reviewed b
 |---|---|
 | 00 Start Here | ✅ Complete — Quick Reference Card with rangefinder shortcuts, SALUTE, brevity codes |
 | 01 Foundations | ✅ Complete — Onboarding guide + Tactical Fundamentals (SALUTE/TAX, SA framework, enabler/preventer) |
-| 02 Role Guides | 🔶 Partial — 5 of 9 roles complete: Medic, Logistics, Commander, Sniper/Recon, Machine Gunner |
-| 03 Tactical SOP | 🔶 Partial — Formations and CFF (with full mortar procedures) complete; ambush/react-to-contact needed |
+| 02 Role Guides | 🔶 Partial — 6 of 9 roles complete: Medic, Logistics, Commander, Sniper/Recon, Machine Gunner, Assault Rifleman |
+| 03 Tactical SOP | ✅ Core Complete — Formations, CFF, React to Contact, Ambush, MEDEVAC all complete; base building / convoy SOP still needed |
 | 04 Unit Doctrine | ✅ Complete — Blue Falcon FIST SOP + Mission Planning Framework both complete |
 | 05 Map Intelligence | 🔶 Partial — Index exists; individual map files in progress |
 | 06 Tools | ✅ Complete — Pucker Point CFF App (live calculator) |
