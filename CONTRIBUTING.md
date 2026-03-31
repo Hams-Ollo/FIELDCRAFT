@@ -1,10 +1,10 @@
-# 🤝 CONTRIBUTING TO THE ZEN SOLUTIONS ARMA KB
+# CONTRIBUTING TO THE ZEN SOLUTIONS ARMA KB
 
 Thank you for wanting to contribute. This library grows through community knowledge — veteran players, experienced milsim operators, WCS regulars, and Arma enthusiasts who know things that need to be written down.
 
 ---
 
-## 📋 WHAT WE NEED
+## WHAT WE NEED
 
 The highest-value contributions right now:
 
@@ -16,7 +16,7 @@ The highest-value contributions right now:
 
 ---
 
-## ✅ STANDARDS FOR CONTRIBUTIONS
+## STANDARDS FOR CONTRIBUTIONS
 
 **Be accurate.** If you are not sure, say so. A caveat is better than wrong information.
 
@@ -30,7 +30,7 @@ The highest-value contributions right now:
 
 ---
 
-## 📄 DOCUMENT FORMAT
+## DOCUMENT FORMAT
 
 All documents use markdown. Follow this structure:
 
@@ -55,7 +55,7 @@ Use tables for comparisons, checklists, and reference data. Use prose for explan
 
 ---
 
-## 📤 HOW TO SUBMIT
+## HOW TO SUBMIT
 
 1. Fork the repository
 2. Create a branch named for your contribution (e.g., `medic-role-guide` or `new-everon-map-intel`)
@@ -67,7 +67,7 @@ If you do not know how to use GitHub, reach out on the WCS Discord and we can he
 
 ---
 
-## 🚫 WHAT WE WILL NOT MERGE
+## WHAT WE WILL NOT MERGE
 
 - Content that violates WCS server rules
 - Exploit documentation
@@ -76,6 +76,6 @@ If you do not know how to use GitHub, reach out on the WCS Discord and we can he
 
 ---
 
-## 💬 QUESTIONS
+## QUESTIONS
 
 Reach out on the WCS Discord: discord.armawcs.com

@@ -1,4 +1,4 @@
-# 🚶 MOVEMENT AND FORMATIONS SOP
+# MOVEMENT AND FORMATIONS SOP
 ## Small Unit Movement for WCS Conflict
 
 > **Doctrine basis:** ATP 3-21.8 Chapter 3 — Tactical Movement
@@ -6,7 +6,7 @@
 
 ---
 
-## ⭐ WHY FORMATIONS MATTER
+## WHY FORMATIONS MATTER
 
 > *"Formations provide 360-degree security and allow units to give the weight of their firepower to the flanks or front in anticipation of enemy contact. They do not demand parade ground precision — units must retain the flexibility to vary their formations to the situation."*
 > — ATP 3-21.8
@@ -22,7 +22,7 @@ A squad that knows its formation and spacing can react to contact, execute a bou
 
 ---
 
-## 📏 SPACING — THE NON-NEGOTIABLE RULE
+## SPACING — THE NON-NEGOTIABLE RULE
 
 **Maintain 10–15 meters between players at all times during movement.**
 
@@ -34,7 +34,7 @@ Spacing also breaks up visual signatures. A line of eight players 2 meters apart
 
 ---
 
-## 🏃 MOVEMENT TECHNIQUES
+## MOVEMENT TECHNIQUES
 
 ATP 3-21.8 defines three movement techniques, each representing a different balance between speed and security. Choose based on the threat level.
 
@@ -61,9 +61,9 @@ ATP 3-21.8 defines three movement techniques, each representing a different bala
 
 ---
 
-## 🔷 MOVEMENT FORMATIONS
+## MOVEMENT FORMATIONS
 
-### 🔺 The Wedge — Standard Patrol Formation
+### The Wedge — Standard Patrol Formation
 
 ```
               ● POINT
@@ -89,7 +89,7 @@ ATP 3-21.8 defines three movement techniques, each representing a different bala
 
 ---
 
-### ➡️ Column — Movement Along Linear Features
+### Column — Movement Along Linear Features
 
 ```
 ● POINT
@@ -114,7 +114,7 @@ ATP 3-21.8 defines three movement techniques, each representing a different bala
 
 ---
 
-### ⚡ Line — Assault Formation
+### Line — Assault Formation
 
 ```
 ● — ● — ● — ● — ●
@@ -133,7 +133,7 @@ ATP 3-21.8 defines three movement techniques, each representing a different bala
 
 ---
 
-### 🌲 File — Dense Terrain / Corridor Movement
+### File — Dense Terrain / Corridor Movement
 
 ```
 ● POINT
@@ -153,7 +153,7 @@ ATP 3-21.8 defines three movement techniques, each representing a different bala
 
 ---
 
-## 📣 TRANSITION SIGNALS
+## TRANSITION SIGNALS
 
 Squad leaders should use simple calls to transition formations:
 
@@ -167,7 +167,7 @@ Squad leaders should use simple calls to transition formations:
 
 ---
 
-## ⚠️ CROSSING OPEN GROUND
+## CROSSING OPEN GROUND
 
 This is where squads die in WCS. Open ground = exposure. There is no clever workaround — open ground is dangerous and must be crossed correctly or avoided entirely.
 
@@ -188,7 +188,7 @@ This is where squads die in WCS. Open ground = exposure. There is no clever work
 
 ---
 
-## ⏸️ PATROL BASE AND HALTS
+## PATROL BASE AND HALTS
 
 When the squad stops for any reason — to observe, to treat a casualty, to get bearings — it does not cluster.
 
@@ -200,7 +200,7 @@ When the squad stops for any reason — to observe, to treat a casualty, to get 
 
 ---
 
-## 🤫 NOISE AND LIGHT DISCIPLINE
+## NOISE AND LIGHT DISCIPLINE
 
 During patrol, the squad should be as quiet as movement in a game engine allows:
 

@@ -1,4 +1,4 @@
-# 💥 CALL FOR FIRE SOP
+# CALL FOR FIRE SOP
 ## Indirect Fire Procedures for WCS Conflict
 
 > **Doctrine basis:** FM 6-30 / ATP 3-09.30 — Observed Fire Procedures
@@ -6,7 +6,7 @@
 
 ---
 
-## 👁️ WHAT THE FORWARD OBSERVER ACTUALLY DOES
+## WHAT THE FORWARD OBSERVER ACTUALLY DOES
 
 > *"The forward observer is the eyes of the field artillery and mortars. Their primary duty is to locate targets and call for and adjust indirect fire support."*
 > — FM 6-30
@@ -19,13 +19,13 @@ The observer who never fires a shot and calls three accurate fire missions has d
 
 ---
 
-## 📡 THE SIX ELEMENTS OF A CALL FOR FIRE
+## THE SIX ELEMENTS OF A CALL FOR FIRE
 
 *Derived directly from FM 6-30 Chapter 4. Adapted for WCS mechanics.*
 
 FM 6-30 defines the call for fire as six elements, transmitted in sequence. Every element has a purpose. Nothing is omitted.
 
-### 1️⃣ Element 1 — Observer Identification and Warning Order
+### Element 1 — Observer Identification and Warning Order
 
 **Purpose:** Clear the radio net. Alert the mortar crew. Tell them what type of mission is coming.
 
@@ -39,7 +39,7 @@ Wait for acknowledgment before continuing. The mortar crew needs a moment to get
 
 ---
 
-### 2️⃣ Element 2 — Target Location
+### Element 2 — Target Location
 
 **Purpose:** Tell the mortar crew where to shoot.
 
@@ -58,7 +58,7 @@ Example: *"Radio tower at Novy Sobor, 150 meters East."*
 
 ---
 
-### 3️⃣ Element 3 — Target Description
+### Element 3 — Target Description
 
 **Purpose:** Tell the mortar crew what they are shooting at, so they can confirm it is worth the ammunition and choose the right effect.
 
@@ -74,7 +74,7 @@ Keep it short. The crew does not need a paragraph — they need to know what it 
 
 ---
 
-### 4️⃣ Element 4 — Method of Engagement
+### Element 4 — Method of Engagement
 
 **Purpose:** Tell the mortar crew how to attack the target — what ammunition, how many rounds, what fuze or ring setting.
 
@@ -96,7 +96,7 @@ Standard call: *"HE — [N] rounds — Ring [X] — fire for effect."*
 
 ---
 
-### 5️⃣ Element 5 — Method of Fire and Control
+### Element 5 — Method of Fire and Control
 
 **Purpose:** Specify timing and any coordination requirements.
 
@@ -110,7 +110,7 @@ Standard call: *"HE — [N] rounds — Ring [X] — fire for effect."*
 
 ---
 
-### 6️⃣ Element 6 — Observer Actions After Fire
+### Element 6 — Observer Actions After Fire
 
 This is not a transmitted element — it is what the observer does after the rounds are in the air.
 
@@ -126,7 +126,7 @@ This is not a transmitted element — it is what the observer does after the rou
 
 ---
 
-## 💬 COMPLETE CALL FOR FIRE — EXAMPLE
+## COMPLETE CALL FOR FIRE — EXAMPLE
 
 ```
 FO:     "Mortar, Blue Falcon — Fire Mission, over."
@@ -160,7 +160,7 @@ FO:     "Target destroyed. End of mission."
 
 ---
 
-## 🎯 ADJUSTMENT OF FIRE
+## ADJUSTMENT OF FIRE
 
 *FM 6-30 Chapter 5 — adapted*
 
@@ -175,7 +175,7 @@ When the first round lands off-target, the observer adjusts. Adjustments are mad
 
 ---
 
-## 🔭 OBSERVER POST (OP) SELECTION
+## OBSERVER POST (OP) SELECTION
 
 *FM 6-30 Chapter 2 — adapted*
 
@@ -191,7 +191,7 @@ Apply OCOKA to every OP selection. The perfect OP that cannot communicate is wor
 
 ---
 
-## 📌 TARGET REFERENCE POINTS (TRPs)
+## TARGET REFERENCE POINTS (TRPs)
 
 *FM 6-30 Section 4-2 — adapted*
 

@@ -1,4 +1,4 @@
-# 📋 MISSION PLANNING FRAMEWORK
+# MISSION PLANNING FRAMEWORK
 ## Pre-Session Briefing Template for Zen Solutions
 
 > **Doctrine basis:** US Army 5-Paragraph Operations Order (OPORD) — adapted for WCS Conflict
@@ -6,7 +6,7 @@
 
 ---
 
-## 💬 WHY BRIEF AT ALL
+## WHY BRIEF AT ALL
 
 The 5-paragraph OPORD is the US Army's standard briefing format. It ensures everyone going into an operation understands the same picture: what is happening, what we are doing, how we are doing it, who handles what, and how we communicate.
 
@@ -21,9 +21,9 @@ The format below is stripped to the minimum that actually matters in a WCS match
 
 ---
 
-## 📝 THE FIVE PARAGRAPHS — WCS ADAPTATION
+## THE FIVE PARAGRAPHS — WCS ADAPTATION
 
-### 1. 🌍 SITUATION
+### 1. SITUATION
 
 **What is happening on the map right now.**
 
@@ -37,7 +37,7 @@ Cover:
 
 ---
 
-### 2. 🎯 MISSION
+### 2. MISSION
 
 **One sentence. What we are doing and why.**
 
@@ -52,7 +52,7 @@ The mission statement has two parts: the task (what) and the purpose (why). Both
 
 ---
 
-### 3. ⚙️ EXECUTION
+### 3. EXECUTION
 
 **How we are doing it. This is the bulk of the brief.**
 
@@ -70,7 +70,7 @@ Cover:
 
 ---
 
-### 4. 🔧 SERVICE AND SUPPORT
+### 4. SERVICE AND SUPPORT
 
 **Logistics, medical, and equipment.**
 
@@ -83,7 +83,7 @@ Cover:
 
 ---
 
-### 5. 📹 COMMAND AND SIGNAL
+### 5. COMMAND AND SIGNAL
 
 **Who is in charge, how do we communicate.**
 
@@ -96,7 +96,7 @@ Cover:
 
 ---
 
-## ⏱️ THE ONE-MINUTE BRIEF
+## THE ONE-MINUTE BRIEF
 
 When there is no time for a full brief — server just hit 32v32 and it is live — use this compressed format:
 
@@ -117,7 +117,7 @@ This takes under 60 seconds and ensures everyone deploys with a shared picture.
 
 ---
 
-## 🔄 POST-MISSION DEBRIEF
+## POST-MISSION DEBRIEF
 
 After a session, a 5-minute debrief captures lessons before they are forgotten. Three questions:
 
@@ -131,7 +131,7 @@ Debrief notes can be added to the map intelligence file for the map played — o
 
 ---
 
-## 📋 TEMPLATE — COPY AND FILL IN
+## TEMPLATE — COPY AND FILL IN
 
 ```
 MISSION BRIEF — Zen Solutions — [Date / Server]

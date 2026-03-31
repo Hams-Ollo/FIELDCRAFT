@@ -1,10 +1,10 @@
-# 📚 DOCTRINE SOURCES — ZEN SOLUTIONS ARMA REFORGER KB
+# DOCTRINE SOURCES — ZEN SOLUTIONS ARMA REFORGER KB
 
 This document lists the US Army field manuals and publicly available doctrine that underpin this knowledge base. All sources are unclassified and publicly available.
 
 ---
 
-## 🧰 WHY WE USE REAL DOCTRINE
+## WHY WE USE REAL DOCTRINE
 
 Real military doctrine is not arbitrary. It represents centuries of warfare distilled into tested principles — lessons paid for in blood that describe why certain approaches work and others get people killed. When we apply these principles to Arma Reforger, we are not LARPing. We are using the most battle-validated tactical framework available and translating it into a game that was designed to simulate these exact scenarios.
 
@@ -12,9 +12,9 @@ The game engine changes. The map changes. The weapons change. The principles do 
 
 ---
 
-## 📖 PRIMARY SOURCES
+## PRIMARY SOURCES
 
-### ⚔️ ATP 3-21.8 — Infantry Platoon and Squad
+### ATP 3-21.8 — Infantry Platoon and Squad
 **Replaces:** FM 3-21.8 (March 2007), ATTP 3-21.71, ATTP 3-21.9
 **Published:** April 2016 (current edition)
 **Available at:** US Army Publishing Directorate — armypubs.army.mil
@@ -37,7 +37,7 @@ Real bounding overwatch accounts for terrain analysis, METT-TC, and physical sta
 
 ---
 
-### 💥 FM 6-30 / ATP 3-09.30 — Observed Fire / Fire Support
+### FM 6-30 / ATP 3-09.30 — Observed Fire / Fire Support
 **FM 6-30:** Tactics, Techniques, and Procedures for Observed Fire (legacy, widely referenced)
 **ATP 3-09.30:** Techniques for Observed Fire (current edition)
 **Available at:** globalsecurity.org/military/library/policy/army/fm/6-30/ (FM 6-30)
@@ -60,7 +60,7 @@ Real observed fire uses six-digit or eight-digit grids, polar plots, and shift-f
 
 ---
 
-## 🧭 SUPPORTING DOCTRINE CONCEPTS
+## SUPPORTING DOCTRINE CONCEPTS
 
 These concepts from doctrine appear throughout the library even when not explicitly cited:
 
@@ -78,7 +78,7 @@ The standard format for contact and intelligence reports. When Blue Falcon obser
 
 ---
 
-## ⚠️ IMPORTANT NOTE ON ADAPTATION
+## IMPORTANT NOTE ON ADAPTATION
 
 This library does not reproduce text from these field manuals. It uses the principles, adapts them to game mechanics, and attributes them appropriately. Players who want to go deeper into real doctrine are encouraged to read the source materials — they are publicly available, well-written, and genuinely interesting.
 
@@ -86,7 +86,7 @@ The goal is not to teach soldiers how to fight real wars. The goal is to use the
 
 ---
 
-## 📜 OTHER REFERENCES
+## OTHER REFERENCES
 
 **Sun Tzu — The Art of War**
 Several passages from Sun Tzu appear throughout this library as framing for larger strategic concepts — particularly on intelligence asymmetry, logistics, and momentum. These are not tactical references but philosophical ones, and they resonate in the WCS context because Sun Tzu's core insight — that battles are won before they are fought, through preparation, positioning, and intelligence — maps directly onto how WCS matches are actually won.

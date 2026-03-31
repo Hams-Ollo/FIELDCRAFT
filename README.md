@@ -20,26 +20,26 @@ This is not a tryhard document. It is designed to be approachable, consumable, a
 
 ## 👥 WHO THIS IS FOR
 
-- 🆕 **New players** who just joined their first WCS server and have no idea what is happening
+- 🎮 **New players** who just joined their first WCS server and have no idea what is happening
 - ⚔️ **Intermediate players** who can fight but want to understand why organized squads dominate
-- ⭐ **Squad leaders** who want to coordinate beyond just pointing at objectives
-- 🤝 **Community builders** who want to seed better server culture and help newer players
-- 🎮 **Any milsim player** — the doctrine in this library applies beyond WCS to any Arma server
+- 🎖️ **Squad leaders** who want to coordinate beyond just pointing at objectives
+- 🏗️ **Community builders** who want to seed better server culture and help newer players
+- 🌐 **Any milsim player** — the doctrine in this library applies beyond WCS to any Arma server
 
 ---
 
-## 🧭 HOW TO USE THIS LIBRARY
+## 🗺️ HOW TO USE THIS LIBRARY
 
 | Your situation | Start here |
 |---|---|
-| 🆕 Never played Arma Reforger | `00_start_here/new_player_fast_start.md` |
-| 🎮 Played vanilla, new to WCS | `00_start_here/wcs_orientation.md` |
-| 🎖️ Want to learn a specific role | `02_role_guides/` |
-| 📋 Need tactical procedures | `03_tactical_sop/` |
-| 🦅 Blue Falcon / FIST team | `04_unit_doctrine/blue_falcon_fist_sop.md` |
-| 📝 Planning a session | `04_unit_doctrine/mission_planning_framework.md` |
-| 🗺️ Need map intel | `05_map_intelligence/` |
-| 🔧 Need the CFF app or tools | `06_tools/` |
+| Never played Arma Reforger | `00_start_here/new_player_fast_start.md` |
+| Played vanilla, new to WCS | `00_start_here/wcs_orientation.md` |
+| Want to learn a specific role | `02_role_guides/` |
+| Need tactical procedures | `03_tactical_sop/` |
+| Blue Falcon / FIST team | `04_unit_doctrine/blue_falcon_fist_sop.md` |
+| Planning a session | `04_unit_doctrine/mission_planning_framework.md` |
+| Need map intel | `05_map_intelligence/` |
+| Need the CFF app or tools | `06_tools/` |
 
 ---
 
@@ -107,7 +107,7 @@ zen-solutions-arma-kb/
 
 ---
 
-## DOCTRINE FOUNDATION
+## 📖 DOCTRINE FOUNDATION
 
 This library uses two primary US Army field manuals as its doctrinal backbone. Both are publicly available:
 
@@ -123,7 +123,7 @@ See `DOCTRINE_SOURCES.md` for full references and links.
 
 ---
 
-## CONTRIBUTING
+## 🤝 CONTRIBUTING
 
 This is an open community project. If you have:
 - Corrections to existing content
@@ -136,19 +136,19 @@ Read `CONTRIBUTING.md` and open a pull request. All contributions are reviewed b
 
 ---
 
-## CURRENT STATUS
+## 📊 CURRENT STATUS
 
 | Section | Status |
 |---|---|
-| 00 Start Here | Partial — orientation complete, fast start and FAQ needed |
-| 01 Foundations | Partial — core mechanics covered, tactical fundamentals needs standalone doc |
-| 02 Role Guides | Partial — summaries exist, standalone guides needed |
-| 03 Tactical SOP | Partial — CFF and comms covered, movement and ambush needed |
-| 04 Unit Doctrine | Strong — FIST SOP complete, mission planning needed |
-| 05 Map Intelligence | Partial — Chernarus strongest, others need full treatment |
-| 06 Tools | Complete — CFF app and quick reference ready |
+| 00 Start Here | 🔶 Partial — orientation complete, fast start and FAQ needed |
+| 01 Foundations | 🔶 Partial — core mechanics covered, tactical fundamentals needs standalone doc |
+| 02 Role Guides | 🔶 Partial — summaries exist, standalone guides needed |
+| 03 Tactical SOP | 🔶 Partial — CFF and comms covered, movement and ambush needed |
+| 04 Unit Doctrine | 💪 Strong — FIST SOP complete, mission planning needed |
+| 05 Map Intelligence | 🔶 Partial — Chernarus strongest, others need full treatment |
+| 06 Tools | ✅ Complete — CFF app and quick reference ready |
 
 ---
 
-*"Apparent confusion masks true organization." — Sun Tzu*
-*"Fire without movement is indecisive. Exposed movement without fire is potentially disastrous." — FM 3-21.8*
+💬 *"Apparent confusion masks true organization." — Sun Tzu*
+💬 *"Fire without movement is indecisive. Exposed movement without fire is potentially disastrous." — FM 3-21.8*
