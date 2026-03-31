@@ -220,3 +220,160 @@ A player who executes all five consistently is more valuable to the team than so
 
 *"One of the defining characteristics of war is chaos. TTP are the counterweight to this chaos."*
 *— ATP 3-21.8*
+
+---
+
+## CONTACT REPORTING — SALUTE AND TAX
+
+Standard reporting formats used any time you observe enemy forces. Every player who spots the enemy should be able to pass a SALUTE report.
+
+**SALUTE — Standard Spot Report:**
+
+| Letter | Element | Example |
+|---|---|---|
+| **S** | Size | "Squad-sized element, approximately 6–8" |
+| **A** | Activity | "Moving north on the road" / "Establishing fighting positions" |
+| **L** | Location | "Grid 085 042" / "South treeline at the road junction" |
+| **U** | Uniform | "Russian woodland camo, AKMs" |
+| **T** | Time | "Time now" or specific time observed |
+| **E** | Equipment | "One PKM, AT launcher, two trucks" |
+
+**TAX — Weapon System Report (for crew-served and vehicle targets):**
+
+| Letter | Element | Meaning |
+|---|---|---|
+| **T** | Type | What is the weapon system (e.g., PKM, RPG-7, BRDM) |
+| **A** | Ammo | What ammunition type it is firing/carrying |
+| **X** | Carriage | How it is mounted or transported (vehicle, static emplacement, man-packed) |
+| **S** | Sights | Optics, night vision, thermal capability |
+
+**Radio brevity:** You do not need to read the heading letters. Say: *"Contact south — squad-sized, moving toward the bridge, one PKM visible, grid 079 038, time now."* The structure is what matters, not the acronym recitation.
+
+---
+
+## ENABLER AND PREVENTER PLAY STYLES
+
+Two fundamentally different approaches to combat power on a WCS server — both valuable, neither better than the other. Know which role you are playing and optimize for it.
+
+### The Enabler
+
+The Enabler expands the team's ability to project force by building and maintaining the infrastructure that makes action possible.
+
+**Actions:**
+- Supply runs that keep FOBs funded
+- Spawning vehicles that give the team mobility
+- Building radio arrays that extend coordination range
+- Positioning a command truck that unlocks fire support
+- Deploying a logistics truck at a forward position so the squad can spawn there
+
+**Effect:** Players naturally flow toward well-supplied, well-equipped positions. An Enabler who keeps three forward FOBs funded and equipped attracts more players to the front than any amount of coordination requests. The team follows the supplies.
+
+**Mindset:** You are not shooting enemies — you are determining whether your team *can* shoot enemies. Cap the supply flow, and the whole team's effectiveness collapses.
+
+### The Preventer
+
+The Preventer degrades the enemy's ability to project force by disrupting logistics and reinforcement rather than fighting at the objective.
+
+**Actions:**
+- Ambush on the road 1km behind the front — RPG on a jeep with 5 players inside eliminates five spawns simultaneously
+- Route interdiction that forces the enemy to take longer, exposed routes
+- Destruction of a supply truck restocking the frontline FOB
+- Elimination of a radio relay station that severs the enemy's fire support coordination
+
+**Effect:** The Preventer does not need to capture objectives. They reduce the enemy's capacity to reinforce the objective, which has the same result as capturing it — eventually the objective is undermanned and falls.
+
+**Mindset:** Every kill behind enemy lines is worth two kills at the front. Players are resurge-able from the front; a destroyed supply truck takes minutes to replace and may leave the enemy FOB dry for the entire push.
+
+> **Combined effect:** The Enabler and Preventer are most powerful operating simultaneously — your team floods the front with resources while the enemy's resources are being drained from behind. This is the two-part formula for controlling an entire match.
+
+---
+
+## SITUATIONAL AWARENESS — FIVE ELEMENTS
+
+Situational awareness is not one thing. It is five parallel awareness tasks running simultaneously. A player who executes all five consistently makes better decisions than even an experienced player who only executes one.
+
+### 1. Map Awareness
+
+**Check your map at minimum every minute during active operations.**
+
+- What objectives are being contested right now?
+- Where are friendly forces? Where are the gaps in the line?
+- Where was the last enemy contact? What direction were they moving?
+- Mark enemy positions before engaging — map data benefits everyone, not just you
+
+*A player who has not checked the map in five minutes is making decisions with five-minute-old information in a situation that may have changed completely.*
+
+### 2. Sensory Awareness
+
+Train yourself to process game audio as tactical data:
+
+- **Footstep cadence** — running vs walking; direction; approaching or receding
+- **Vehicle engine sound** — type and direction; proximity
+- **Muzzle flash location** — at night, flash precedes sound; localize by flash before the crack
+- **Shadow movement** — in buildings and at wood line edges, shadows move before the player is visible
+
+What you hear and see peripherally is often more valuable than what you aim at.
+
+### 3. Terrain Analysis
+
+OCOKA in practice, continuously:
+
+- Who holds the high ground right now, you or the enemy?
+- Where are the choke points on the likely approach routes?
+- What cover is available between your current position and the objective?
+- Where would *you* set up an ambush on the route you are about to take? Go a different way.
+
+Terrain does not change. Enemy behavior relative to terrain is predictable. Exploit this.
+
+### 4. Enemy Intel Pattern Tracking
+
+Build a picture of enemy behavior over time:
+
+- What routes do they consistently use between supply depot and FOB?
+- Where have engagements occurred repeatedly? Those positions are defended for a reason.
+- Loot enemy radios (see below) for live comms
+- After you die, note where you were killed from — that position exists because it is good ground
+
+Pattern intelligence takes time to build but becomes enormously valuable by mid-game.
+
+### 5. Predicting Enemy Actions
+
+Think like the enemy commander:
+
+- The enemy just lost their FOB at Novy — where are they likely to rebuild?
+- Their supply depot was just hit — how long before they run dry at the front?
+- You just eliminated their mortar crew — what is their indirect fire capability in the next 10 minutes?
+
+Predicting what the enemy *will* do lets you position to counter it before it happens. Reactive play loses; predictive play wins.
+
+---
+
+## ENEMY RADIO LOOTING
+
+When you neutralize an enemy soldier, check the body for a **radio**.
+
+Picking up an enemy radio gives you access to the enemy communications net. You can monitor their voice comms and hear:
+- Reinforcement plans and timings
+- Movement orders ("push to Grid X")
+- Medical calls that reveal how hard they were hit
+- Command-level decisions about objective priorities
+
+This is live, unfiltered enemy intelligence. Pass anything actionable to your Commander immediately.
+
+> **Tactical note:** An enemy who discovers their net has been compromised may change frequencies. Treat looted enemy comms as a time-sensitive intelligence source — act on it fast.
+
+---
+
+*Sources: King Alex TacTalk; Ironbeard WCS Conflict Mode Guide*
+*"One of the defining characteristics of war is chaos. TTP are the counterweight to this chaos." — ATP 3-21.8*
+
+---
+
+## See Also
+
+- [Quick Reference Card](../00_start_here/quick_reference_card.md) — brevity codes, SALUTE abbreviation, CFF format
+- [Movement & Formations SOP](../03_tactical_sop/movement_and_formations.md) — ATP 3-21.8 formations, buddy teams, peel techniques
+- [Call for Fire SOP](../03_tactical_sop/call_for_fire_sop.md) — indirect fire support, OP selection
+- [Sniper / Recon Guide](../02_role_guides/sniper_recon.md) — SALUTE/TAX, target priority, synchronized fire
+- [Commander Guide](../02_role_guides/commander.md) — enabler/preventer at command level
+- [WCS Complete Onboarding Guide](wcs_complete_onboarding_guide.md) — full server and game mode context

@@ -523,3 +523,20 @@ Rank on WCS servers unlocks access to better gear, vehicles, and the ability to 
 **See you on the frontline. 🪖**
 
 > discord.armawcs.com | armawcs.wiki.gg
+
+---
+
+## See Also
+
+- [Quick Reference Card](../00_start_here/quick_reference_card.md) — print/screenshot pocket reference for everything on this guide
+- [Tactical Fundamentals](tactical_fundamentals.md) — doctrine-grounded combat principles, SA framework, SALUTE
+- [Movement & Formations SOP](../03_tactical_sop/movement_and_formations.md) — ATP 3-21.8 formations, buddy teams, peels
+- [Call for Fire SOP](../03_tactical_sop/call_for_fire_sop.md) — full FM 6-30 observer procedures and mortar operator handbook
+- [Combat Medic Guide](../02_role_guides/combat_medic.md) — full TCCC treatment sequence
+- [Logistics Operator Guide](../02_role_guides/logistics_operator.md) — supply economy and truck operations
+- [Commander Guide](../02_role_guides/commander.md) — three command systems and rank gates
+- [Sniper / Recon Guide](../02_role_guides/sniper_recon.md) — FFP selection, rangefinder techniques, target priority
+- [Machine Gunner Guide](../02_role_guides/machine_gunner.md) — rates of fire, AG mechanics, talking guns
+- [Blue Falcon FIST SOP](../04_unit_doctrine/blue_falcon_fist_sop.md) — fire support and LRRP doctrine
+- [Mission Planning Framework](../04_unit_doctrine/mission_planning_framework.md) — 5-paragraph OPORD template
+- [Pucker Point CFF App](../06_tools/pucker_point_cff_app.html) — live CFF calculator

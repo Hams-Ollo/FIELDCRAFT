@@ -211,5 +211,153 @@ During patrol, the squad should be as quiet as movement in a game engine allows:
 
 ---
 
+---
+
+## BUDDY TEAM MECHANICS
+
+ATP 3-21.8 organizes the fire team around **buddy pairs** — two-man teams that operate, move, and cover as inseparable units.
+
+**Standard fire team buddy pairs:**
+
+| Buddy Team | Members | Reason |
+|---|---|---|
+| **Team 1** | Team Leader (TL) + Automatic Rifleman (AR) | The TL keeps the AR close for direct control of the team's primary casualty-producing weapon. The AR never goes anywhere the TL cannot immediately see and direct. |
+| **Team 2** | Grenadier + Rifleman | The grenadier's 40mm provides area fire and smoke; the rifleman provides close security and carries additional 40mm rounds. |
+
+Buddy pairs never separate. When one man moves, the other covers. When one man is hit, the other is already there to pull them back. The buddy pair is the irreducible unit of small unit tactics.
+
+---
+
+## POINTMAN DOCTRINE
+
+The pointman is the **advance guard of the element** — the player who moves 10–20 meters ahead of the main formation.
+
+**What the pointman does:**
+- Detects contact, obstacles, and threats before the main element walks into them
+- Sets foot placement and pace for the formation behind
+- Reacts to threat immediately, buying the element time to respond
+
+**What the pointman does NOT do:**
+- Navigate. The pointman is not responsible for finding the route. The Team Leader navigates using compass and map and tells the pointman the destination heading.
+- Lead tactics. The pointman acts; the TL decides.
+
+**The relationship:** The TL navigates from the center-rear, sets the destination and heading, and the pointman selects the exact micro-route to get there. The pointman must maintain visual contact with the TL at all times — if the TL cannot be seen, the pointman has gone too far ahead.
+
+---
+
+## SUCCESSIVE vs ALTERNATE BOUNDING
+
+Two variants of bounding overwatch produce different tactical effects. Use the right one for the situation.
+
+### Successive Bounding
+
+```
+Start:   [OVERWATCH]  [BOUND]
+         ●●●●         →→→→→
+After:   [OVERWATCH]  [BOUND stops alongside OVERWATCH]
+         ●●●●           ●●●●
+```
+
+**How:** The bounding element advances and **stops level with (or online with) the overwatch element** — both elements are now in the same position or line.
+
+**Use when:**
+- Close assault on a fortified position — you want maximum mass before the final rush
+- Dense terrain where small gains are safer
+- Maintaining tight control when terrain limits visibility between elements
+
+**Effect:** Slow but secure. Both elements gain ground together.
+
+### Alternate Bounding
+
+```
+Start:   [OVERWATCH]  [BOUND]
+         ●●●●         →→→→→→→→→→
+After:   [BOUND holding far]  [OVERWATCH bounds through]
+              ●●●◄◄◄◄◄◄◄◄◄◄◄●●●●
+```
+
+**How:** The bounding element advances **past the overwatch element** and establishes a new overwatch position further forward. The original overwatch element then bounds through them to an even further position.
+
+**Use when:**
+- Crossing open ground that must be covered quickly
+- Breaking contact rearward — leapfrogging to gain distance from the enemy
+- Any situation where covering maximum ground efficiently matters more than maintaining close-order control
+
+**Effect:** Faster ground coverage. Each bound is a true leapfrog — you are always extending the distance.
+
+---
+
+## INDIVIDUAL BUDDY RUSHES
+
+A decentralized variant of bounding overwatch used when the TL cannot maintain centralized control — heavy contact, broken terrain, fog of war.
+
+**How it works:** The fire team splits into its buddy pairs. Each pair alternates independently — one man moves, his buddy covers; roles switch. No centralized call from the TL is needed.
+
+```
+Buddy Pair 1:  ● moves → ● covers → ● moves → ...
+Buddy Pair 2:  ● covers → ● moves → ● covers → ...
+```
+
+**When to use:**
+- TL cannot maintain line-of-sight control in broken terrain
+- Element is broken into separate positions by contact
+- Rapid individual bounds needed to close distance or break contact
+
+**The rule:** Three guns covering, one gun moving, always. The fire team maintains 75% firepower on the threat at all times during individual rushes.
+
+---
+
+## THE PEEL — BREAKING CONTACT
+
+The peel is the fire team's standard technique for breaking contact under fire. Two variants for two different contact scenarios.
+
+### Side Peel (Contact on Flank — Element Was in File/Column)
+
+**Scenario:** Your element is moving in file and takes contact from a flank.
+
+**Execution:**
+1. All players in the file immediately face the threat and form a firing line
+2. Team Leader calls: *"Peel left"* (or right — away from the direction of travel)
+3. The rearmost player on the designated side calls *"Moving"*, bounds behind the rest of the line in the direction of travel to the opposite end of the line, calls *"Set"*, and resumes firing
+4. The next player from that end calls *"Moving"* and follows the same path
+5. Last player in the peel calls *"Last man"*
+6. The TL continues calling peels until the element has broken contact and reached the rally point
+
+**Effect:** The element moves as a unit, always maintaining fire on the threat, while each member in turn peels off the back and extends the line forward.
+
+### Center Peel (Front Contact — Element Was in Column)
+
+**Scenario:** Your element is moving in column and takes contact directly to the front.
+
+**Execution:**
+1. Front two players engage the threat immediately
+2. TL calls: *"Peel center"*
+3. Frontmost player disengages, sprints through the center of the column past all other players to the rear, takes a firing position, and calls *"Set"*
+4. The next player up front immediately picks up fire as the front player begins moving
+5. Continue down the line — each player peels through center to the rear as the player behind them picks up fire
+6. Last player calls *"Last man"* as they begin their move
+
+**Effect:** The element continuously moves rearward through center while always maintaining guns on the threat.
+
+### Scaling the Peel
+
+Standard peel is **one player at a time** — this keeps the maximum number of guns in the fight. For larger elements or faster withdrawal:
+- **Peeling by twos** — two players move simultaneously, works for fire teams of 6+
+- **Peeling by threes** — used by platoon-size elements
+
+Do not scale up the peel unless you have enough players to maintain meaningful suppression with the remaining guns. A three-man fire team peeling by twos means one gun is covering while two move — that is the minimum acceptable.
+
+---
+
 *Doctrine basis: ATP 3-21.8 (Infantry Platoon and Squad) — Chapter 3, Tactical Movement*
+*Sources: ATP 3-21.8; Mil Simmer Fire Team Formations Guide*
 *"Formations do not demand parade ground precision. Platoons and squads must retain the flexibility needed to vary their formations to the situation." — ATP 3-21.8*
+
+---
+
+## See Also
+
+- [Tactical Fundamentals](../01_foundations/tactical_fundamentals.md) — fire and movement doctrine, react-to-contact, support by fire
+- [Call for Fire SOP](call_for_fire_sop.md) — bounding overwatch enables effective CFF from covered positions
+- [Machine Gunner Guide](../02_role_guides/machine_gunner.md) — MG employment, support by fire rates
+- [Sniper / Recon Guide](../02_role_guides/sniper_recon.md) — PWCAMDRASS route planning, pointman doctrine

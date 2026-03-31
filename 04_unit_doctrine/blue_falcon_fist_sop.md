@@ -442,3 +442,15 @@ Approachable. Tactically credible. Fair. That is the standard.
 *WCS NA Servers | discord.armawcs.com | armawcs.wiki.gg*
 
 *"Apparent confusion masks true organization." — Sun Tzu*
+
+---
+
+## See Also
+
+- [Call for Fire SOP](../03_tactical_sop/call_for_fire_sop.md) — FM 6-30 observer procedures and mortar operator handbook
+- [Sniper / Recon Guide](../02_role_guides/sniper_recon.md) — sniper/spotter pair doctrine, rangefinder techniques, target priority
+- [Movement & Formations SOP](../03_tactical_sop/movement_and_formations.md) — LRRP bounding and peel techniques
+- [Tactical Fundamentals](../01_foundations/tactical_fundamentals.md) — OCOKA for OP selection, SA framework
+- [Commander Guide](../02_role_guides/commander.md) — fire support rank gates, AI mortar teams
+- [Mission Planning Framework](mission_planning_framework.md) — pre-op briefing template
+- [Pucker Point CFF App](../06_tools/pucker_point_cff_app.html) — live CFF mission calculator

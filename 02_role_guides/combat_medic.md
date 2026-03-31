@@ -57,6 +57,10 @@ This is the core of WCS medical. Execute this in order every time. Deviations wa
 
 Before touching anything, use the **Check Injuries** interaction on the casualty. This gives you the injury report: which limbs are bleeding, severity (light, moderate, heavy), and whether the head or torso is injured.
 
+**Quick injury check:** Hold `F` to inspect a patient's injuries without opening the full interaction menu — useful for rapid status assessment mid-treatment.
+
+> **Enemy casualty:** If you encounter a wounded enemy and the tactical situation is active, **middle mouse button** to execute. Do not expend treatment time or supplies on enemy combatants while your own squad needs care.
+
 Assess the situation in three seconds:
 - Where is the bleeding?
 - How heavy is it?
@@ -133,7 +137,11 @@ Administer a saline bag if:
 
 ### Step 6 — MORPHINE TO ACCELERATE HEALING
 
-Once bleeding is controlled and saline is administered, give morphine. Morphine accelerates health regeneration — the wounds begin closing faster and the patient's combat effectiveness recovers more quickly. Administer morphine before epinephrine because it starts the healing process that epi then builds on when waking the patient.
+Once bleeding is controlled and saline is administered, give morphine. Morphine accelerates health regeneration — the wounds begin closing faster and the patient's combat effectiveness recovers. Morphine works through progressive severity stages:
+
+`Serious → Heavy → Moderate → Light → Full recovery`
+
+Administer morphine before epinephrine because it starts the healing process that epi then builds on when waking the patient.
 
 **On WCS with Realism Overhaul Medical:** The morphine cooldown is 120 seconds between doses (versus 25 seconds in vanilla). This is not a spam item. One dose, assess, wait for effect before considering a second.
 
@@ -180,6 +188,8 @@ After morphine has been administered and bleeding is fully controlled, give epin
 ## TRIAGE — MULTIPLE CASUALTIES
 
 When multiple players are down simultaneously, you cannot treat everyone at once. Triage is the process of prioritizing who gets treated first.
+
+**Drop your medical bag immediately.** At the start of any MASCAS event, place your medical bag on the ground where your squad can access it. Players can pull supplies directly from the bag — this converts your personal carry into a shared team resource and prevents a situation where your squad goes untreated because all the supplies are locked in one player's inventory.
 
 **Real TC3 triage categories:**
 - **Immediate** — will die without treatment in minutes. Severe bleeding, unconscious.
@@ -371,3 +381,12 @@ TRIAGE RULE:
 *Doctrine basis: US Army TC3 / TCCC (Tactical Combat Casualty Care)*
 *Game system: Arma Reforger vanilla medical + Realism Overhaul Medical (WCS mod stack)*
 *"A dead medic treats nobody. Fire superiority first." — TC3 Care Under Fire principle*
+
+---
+
+## See Also
+
+- [Quick Reference Card](../00_start_here/quick_reference_card.md) — MEDEVAC sequence, pre-spawn IFAK checklist
+- [Tactical Fundamentals](../01_foundations/tactical_fundamentals.md) — react to contact, smoke for concealment, fire superiority first
+- [Movement & Formations SOP](../03_tactical_sop/movement_and_formations.md) — squad positioning and casualty collection
+- [WCS Complete Onboarding Guide](../01_foundations/wcs_complete_onboarding_guide.md) — full medical system context and medic loadout

@@ -165,3 +165,14 @@ MISSION BRIEF — Zen Solutions — [Date / Server]
 
 *Doctrine basis: US Army 5-Paragraph Operations Order (OPORD) format*
 *"Prior planning prevents poor performance." — Common military expression*
+
+---
+
+## See Also
+
+- [Tactical Fundamentals](../01_foundations/tactical_fundamentals.md) — METT-TC, OCOKA, fire and movement doctrine
+- [Movement & Formations SOP](../03_tactical_sop/movement_and_formations.md) — movement techniques and formation selection
+- [Call for Fire SOP](../03_tactical_sop/call_for_fire_sop.md) — fire support planning and range cards
+- [Blue Falcon FIST SOP](blue_falcon_fist_sop.md) — unit fire support integration
+- [Commander Guide](../02_role_guides/commander.md) — commander systems for mission execution
+- [Quick Reference Card](../00_start_here/quick_reference_card.md) — brevity codes, radio nets, objective priority

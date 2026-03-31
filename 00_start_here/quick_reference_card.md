@@ -95,6 +95,38 @@
 
 ---
 
+## 🔍 RANGEFINDER SHORTCUTS
+
+| Input | Output |
+|---|---|
+| Hold `R` | Range to single point |
+| Hold `V` | Bearing to single point |
+| Hold `R` → tap `C` → release at 2nd point | Distance between two points |
+| Hold `V` → tap `C` → release at 2nd point | Direction + distance between two points |
+| Hold `V` → tap `C` (mortar mode) → drag to target | Mortar Left/Up adjustment numbers |
+
+---
+
+## 📡 INTEL REPORT — SALUTE
+
+`S` = Size &nbsp;&nbsp; `A` = Activity &nbsp;&nbsp; `L` = Location &nbsp;&nbsp; `U` = Uniform &nbsp;&nbsp; `T` = Time &nbsp;&nbsp; `E` = Equipment
+
+Example: *"Squad-size, moving north, Grid 079 038, Russian woodland, time now, one PKM."*
+
+---
+
+## See Also
+
+- [WCS Complete Onboarding Guide](../01_foundations/wcs_complete_onboarding_guide.md) — full context for every item on this card
+- [Tactical Fundamentals](../01_foundations/tactical_fundamentals.md) — METT-TC, OCOKA, fire & movement doctrine
+- [Movement & Formations SOP](../03_tactical_sop/movement_and_formations.md) — spacing, formations, bounding
+- [Call for Fire SOP](../03_tactical_sop/call_for_fire_sop.md) — full six-element CFF + mortar operator procedures
+- [Combat Medic Guide](../02_role_guides/combat_medic.md) — full TCCC treatment sequence
+- [Logistics Operator Guide](../02_role_guides/logistics_operator.md) — supply loop detail
+- [Pucker Point CFF App](../06_tools/pucker_point_cff_app.html) — live CFF calculator
+
+---
+
 ## 💥 CALL FOR FIRE FORMAT
 
 ```

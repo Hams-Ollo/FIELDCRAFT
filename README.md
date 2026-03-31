@@ -32,14 +32,14 @@ This is not a tryhard document. It is designed to be approachable, consumable, a
 
 | Your situation | Start here |
 |---|---|
-| Never played Arma Reforger | `00_start_here/new_player_fast_start.md` |
-| Played vanilla, new to WCS | `00_start_here/wcs_orientation.md` |
-| Want to learn a specific role | `02_role_guides/` |
-| Need tactical procedures | `03_tactical_sop/` |
-| Blue Falcon / FIST team | `04_unit_doctrine/blue_falcon_fist_sop.md` |
-| Planning a session | `04_unit_doctrine/mission_planning_framework.md` |
-| Need map intel | `05_map_intelligence/` |
-| Need the CFF app or tools | `06_tools/` |
+| Never played Arma Reforger | [WCS Complete Onboarding Guide](01_foundations/wcs_complete_onboarding_guide.md) |
+| New to WCS / need a fast reference | [Quick Reference Card](00_start_here/quick_reference_card.md) |
+| Want to learn a specific role | [Role Guides →](02_role_guides/) |
+| Need tactical procedures | [Tactical SOPs →](03_tactical_sop/) |
+| Blue Falcon / FIST team | [Blue Falcon FIST SOP](04_unit_doctrine/blue_falcon_fist_sop.md) |
+| Planning a session | [Mission Planning Framework](04_unit_doctrine/mission_planning_framework.md) |
+| Need map intel | [Map Intelligence →](05_map_intelligence/) |
+| Need the CFF app or tools | [Pucker Point CFF App](06_tools/pucker_point_cff_app.html) |
 
 ---
 
@@ -107,7 +107,36 @@ zen-solutions-arma-kb/
 
 ---
 
-## 📖 DOCTRINE FOUNDATION
+## � AVAILABLE DOCUMENTS
+
+**Foundations**
+- [WCS Complete Onboarding Guide](01_foundations/wcs_complete_onboarding_guide.md) — Noob to operator, 15-part guide
+- [Tactical Fundamentals](01_foundations/tactical_fundamentals.md) — Fire & movement, METT-TC, OCOKA, SA framework, SALUTE reporting
+
+**Start Here**
+- [Quick Reference Card](00_start_here/quick_reference_card.md) — Print/screenshot pocket reference, rangefinder shortcuts, brevity codes
+
+**Role Guides**
+- [Combat Medic](02_role_guides/combat_medic.md) — TCCC → WCS treatment sequence, MASCAS, loadout
+- [Logistics Operator](02_role_guides/logistics_operator.md) — Supply economy, truck ops, AI drivers, XP rules
+- [Commander](02_role_guides/commander.md) — Three command systems, rank gates, AI fire teams
+- [Sniper / Recon](02_role_guides/sniper_recon.md) — FFP selection, rangefinder techniques, SALUTE, synchronized fire
+- [Machine Gunner](02_role_guides/machine_gunner.md) — Rates of fire, AG mechanics, talking guns
+
+**Tactical SOPs**
+- [Movement & Formations](03_tactical_sop/movement_and_formations.md) — ATP 3-21.8 formations, buddy teams, bounding, peel techniques
+- [Call for Fire SOP](03_tactical_sop/call_for_fire_sop.md) — FM 6-30 observer procedures + full mortar operator handbook
+
+**Unit Doctrine**
+- [Blue Falcon FIST SOP](04_unit_doctrine/blue_falcon_fist_sop.md) — Fire support & long-range recon doctrine
+- [Mission Planning Framework](04_unit_doctrine/mission_planning_framework.md) — 5-paragraph OPORD template for WCS sessions
+
+**Tools**
+- [Pucker Point CFF App](06_tools/pucker_point_cff_app.html) — Live call-for-fire calculator
+
+---
+
+## �📖 DOCTRINE FOUNDATION
 
 This library uses two primary US Army field manuals as its doctrinal backbone. Both are publicly available:
 

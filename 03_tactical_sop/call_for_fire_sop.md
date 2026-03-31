@@ -103,7 +103,7 @@ Standard call: *"HE — [N] rounds — Ring [X] — fire for effect."*
 **Standard:** Fire for effect on command. In most WCS missions, this element is satisfied by the "fire for effect" call in Element 4.
 
 **If coordination is needed:** *"At my command"* — mortar loads and awaits your fire order before shooting. Use this when you need to synchronize the strike with a ground assault.
-
+**Synchronized sniper + indirect fire:** When a sniper/recon element has eyes on a High Value Target (HVT) such as an officer or commander, the fire mission should be pre-briefed *before* the shot is taken. Transmit the full fire mission as *“at my command”* — the mortar is loaded and oriented, waiting. The sniper engages the HVT, then **immediately calls “Fire”** over the net. The window between the HVT going down and the enemy reacting to cover is measured in seconds. Pre-briefing the crew compresses the delay to near-zero — enemy starts responding to their commander going down and the mortars hit before they can rally or communicate.
 **Danger Close:** If friendly forces are within 100 meters of the target, announce this immediately: *"DANGER CLOSE — friendly troops within 100 meters."* This is not part of the six-element sequence — it overrides everything else and must be said first.
 
 > **Doctrine note:** FM 6-30 defines Danger Close as the zone within which friendly troops require special precautionary measures. The firing unit uses this to apply lower ring settings and fire single confirmation rounds before effect. In WCS, it tells the mortar crew to reduce rings and the nearby infantry to go prone.
@@ -173,6 +173,10 @@ When the first round lands off-target, the observer adjusts. Adjustments are mad
 
 **Bracketing (when time permits):** Fire a round short, then a round long, then split the bracket. This achieves accuracy in fewer rounds than creeping. In WCS time pressure usually means going straight to fire for effect rather than bracketing, but bracketing is correct procedure when the target is high-value and time permits.
 
+**Rangefinder mortar adjustment mode:** Hold `V`, tap `C` to enter mortar adjustment mode on the Laser Rangefinder. Mark the current round's impact as the first point, then drag to where you want the next round to land. The rangefinder outputs Left/Up correction numbers directly in the mortar crew's reference frame. Pass those numbers directly to the operator — no math required on the observer's end.
+
+**Multi-angle observer correction — the 45° problem:** When the observer is positioned at a significant angle to the mortar-to-target axis, the observer's “left” and “right” do not correspond to the mortar crew's “left” and “right.” If you call “right 50” from a 90° offset position, the crew adjusts in a direction that may be toward you or away from the target rather than correcting the miss. Solutions: (1) Use rangefinder mortar adjustment mode — it handles angle translation automatically. (2) Give corrections in mils rather than cardinal direction — mils are absolute, not relative to observer position. (3) Mark the impact and intended target on the map and let the crew calculate their own correction.
+
 ---
 
 ## OBSERVER POST (OP) SELECTION
@@ -198,7 +202,152 @@ Apply OCOKA to every OP selection. The perfect OP that cannot communicate is wor
 A Target Reference Point is a pre-registered location that allows rapid fire missions without recalculating data from scratch. Before a session, the FO and mortar crew identify key locations on the map, calculate the firing solution, and assign each location a name.
 
 During the mission, instead of transmitting a grid, the FO says *"TRP Mogilevka Main"* and the crew immediately dials in the pre-calculated solution. This reduces the time from observation to first round landing from minutes to seconds.
+---
 
+## MORTAR OPERATOR PROCEDURES
+
+> *This section covers the gun crew's side of the fire mission. The FO Handbook (above) covers the observer's side. Both elements operate the same mission — from opposite ends of the radio.*
+
+*Source: Ironbeard Mortar Operator Guide; King Alex TacTalk*
+
+---
+
+### PLACEMENT REQUIREMENTS
+
+- **Rank gate:** Sergeant rank required to build a mortar pit
+- **Build from:** Command tent or construction truck — you do not need to be inside a base perimeter
+- **Site selection:** Place on the flattest available ground. Sloped ground affects the gun's ability to traverse and level correctly.
+- **Positioning:** Forward positions are legal — a mortar pit 300m from the front is more responsive than one at the main base. Weigh the tradeoff: range advantage vs survivability.
+
+---
+
+### ROUND TYPES
+
+| Round | Use |
+|---|---|
+| **HE** | Primary offensive round. Fragmentation effect against personnel and light vehicles. |
+| **Smoke** | Concealment. Blind enemy crew-served positions. Mark objectives. |
+| **Illumination (Flare)** | Night operations. **Critical:** The detonation fuse time must be **less than the round's flight time** or the flare will not activate — it will impact the ground as a dud. The auto-setting handles this correctly in most cases, but verify for extreme ranges. |
+
+---
+
+### SELF-LOCATION VIA RESECTION
+
+Your mortar's accuracy depends entirely on knowing where *you* are. An accurate grid for the mortar position is not optional. If you do not know your position, your first round will be wrong regardless of how precisely you calculate everything else.
+
+**Resection procedure (triangulation from known landmarks):**
+
+1. Identify 3 or more known landmarks visible from your position (radio towers, prominent buildings, hilltops marked on the map).
+2. Shoot a compass bearing to each landmark. Write them down.
+3. Open the **Protractor** (default key: `B`) on your map.
+4. Center the protractor on the **map marker** for the first landmark.
+5. Open the **Pencil** (default key: `N`).
+6. On the protractor, locate your bearing reading in mills. **Use the outer ring — the outer ring is mills, the inner ring is degrees.**
+7. Draw a line from the bearing reading through the center of the protractor and extend it across the map.
+8. Repeat for all landmarks.
+9. The point where the lines intersect is your position. Mark it.
+
+> **Accuracy note:** The intersection of two lines gives an approximate position. Three lines reduce error significantly — you should get a small triangle rather than a point. Your position is inside that triangle. The more landmarks used, the tighter the intersection.
+
+---
+
+### FIRING SOLUTION
+
+With your position confirmed, calculating the firing solution is a four-step process.
+
+**Step 1 — Draw the gun-to-target line:**
+On the map, draw a line from your mortar position to the target grid.
+
+**Step 2 — Read the azimuth:**
+Center the protractor on your position. Read the azimuth to the target in **mills** (outer ring). This is your **deflection setting** — it appears at the bottom of the screen when you are on the gun.
+
+**Step 3 — Measure the range:**
+Use the ruler aligned to the gun-to-target line. Read the distance in **meters**.
+
+**Step 4 — Find elevation in the ballistic table:**
+Open the **Ballistic Manual** from the arsenal (quickslot to `0`). Find the M821H shell table.
+
+- Locate the row matching your range
+- Read the elevation value in **mills**
+- **Charge rings** are the flammable attachments on the round — more rings = more propellant = more range. After the first round is manually inspected and charged, the game auto-sets rings for subsequent rounds.
+- The current elevation setting is displayed on the left side of the screen when on the gun
+
+---
+
+### ELEVATION INTERPOLATION BETWEEN TABLE ENTRIES
+
+When your exact range falls between two rows in the ballistic table (e.g., your target is 950m and the table has rows for 900m and 1000m):
+
+1. Find the mills values for both rows (e.g., 900m = 1247 mills, 1000m = 1198 mills)
+2. Subtract to find the total mills change across that 100m span: 1247 − 1198 = 49 mills per 100m
+3. Divide by 100 to get mills-per-meter: 49 ÷ 100 = 0.49 mills/m
+4. Multiply by your offset from the closer known row: 50m from the 900m row = 0.49 × 50 = ~25 mills
+5. **Longer range = lower elevation mills** (flatter angle). Subtract to go farther, add to go shorter:
+   - Your range is 950m (farther than 900m) → 1247 − 25 = **1222 mills**
+
+> Use this same calculation to correct for a long or short registration round — the FO gives you the range error in meters; apply the math above to find the elevation correction.
+
+---
+
+### REGISTRATION ROUND AND FIRE FOR EFFECT
+
+**Step 1 — Set up and fire the registration round:**
+- Load a single HE round
+- Set azimuth (deflection) to your calculated value
+- Set elevation to your calculated value
+- Fire one round
+- Transmit: *“Shot out”* to the FO
+
+**Step 2 — FO observes:**
+- FO calls *“Splash”* 5 seconds before impact so the crew is timing the observation
+- FO reports the result
+
+**Step 3 — Adjust or FFE:**
+- If the round is on target: *“Fire for effect.”* Pump rounds.
+- If adjustment needed: apply the corrections from the FO (see below)
+
+---
+
+### RECEIVING AND APPLYING CORRECTIONS
+
+The FO has two tools for measuring miss distance:
+
+**Lateral correction (azimuth adjust):**
+- FO marks the impact point on the map with a dot
+- FO centers the protractor on the impact and measures the lateral deviation to the target **in mills**
+- FO transmits: *“Left 30 mills”* or *“Right 45 mills”*
+- Operator adjusts the azimuth dial by that mills amount in the stated direction
+
+**Range correction (elevation adjust):**
+- FO measures the range error with the ruler: *“Add 150 meters”* or *“Drop 80 meters”*
+- Operator runs the elevation interpolation math above to convert meters to mills
+- Operator adjusts the elevation setting accordingly
+
+---
+
+### AI MORTAR TEAMS
+
+**Rank requirement:** Captain rank required to use AI mortar teams with HE rounds.
+
+**Procedure:**
+1. Build a mortar pit (Sergeant rank)
+2. Spawn an AI mortar team (Commander operations table)
+3. Issue the AI team a *“Get in”* command at the mortar position
+4. From the map, issue an **artillery fire command** on the target location
+5. AI crew will fire until ordered to stop or ammo is depleted
+
+> AI mortar teams are reportedly accurate once properly positioned and given a valid target. Use them for sustained area suppression missions. Player crews provide better precision for time-sensitive HVT or danger-close missions.
+
+---
+
+## See Also
+
+- [Sniper / Recon Guide](../02_role_guides/sniper_recon.md) — observer role, rangefinder mortar mode, synchronized sniper + indirect fire
+- [Commander Guide](../02_role_guides/commander.md) — fire support rank gates, AI mortar team management
+- [Tactical Fundamentals](../01_foundations/tactical_fundamentals.md) — OCOKA for OP selection, SA framework
+- [Blue Falcon FIST SOP](../04_unit_doctrine/blue_falcon_fist_sop.md) — unit-level fire support and LRRP doctrine
+- [Quick Reference Card](../00_start_here/quick_reference_card.md) — CFF format quick reference
+- [Pucker Point CFF App](../06_tools/pucker_point_cff_app.html) — live CFF mission calculator with firing solution math
 **TRP registration procedure:**
 1. Identify a high-value location on the map (enemy main base, supply depot, FOB construction zone)
 2. Use the mortar calculator (arma-mortar.com) to calculate elevation, direction, and ring
