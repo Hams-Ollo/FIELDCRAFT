@@ -2,6 +2,25 @@
 
 This document tracks what exists, what is in progress, and what is planned. Updated as content is added.
 
+> **Last updated:** March 2026 — Phase 2 role guide batch complete. Cross-linking pass complete. Entire repo now wiki-navigable.
+
+---
+
+## 📋 RECENT UPDATES (March 2026)
+
+| Item | Change |
+|---|---|
+| Combat Medic Guide | Added morphine progression, bag drop mechanic, hold-F check, enemy execute note |
+| Logistics Operator Guide | New file — supply economy, depot types, truck/helo ops, XP rules, AI drivers |
+| Commander Guide | New file — traffic controller mindset, 3 systems, rank gates, AI fire teams |
+| Sniper / Recon Guide | New file — 90/10 observe/shoot mindset, FFP selection, rangefinder bindings, target priority |
+| Machine Gunner / AG Guide | New file — rates of fire, talking guns, AG mechanics, ammo calculus |
+| Movement and Formations SOP | Added buddy teams, pointman doctrine, successive/alternate bounding, buddy rushes, Side Peel, Center Peel |
+| Tactical Fundamentals | Added SALUTE/TAX report formats, Enabler/Preventer framework, 5-element SA, enemy radio looting |
+| Call for Fire SOP | Added rangefinder mortar mode, multi-angle correction, synchronized fire, full Mortar Operator Procedures section |
+| Quick Reference Card | Added rangefinder shortcut table, SALUTE abbreviation |
+| All files | Full wiki-style cross-linking pass — every document now has a See Also footer |
+
 ---
 
 ## 🏗️ PHASE 1 — FOUNDATION (Current)
@@ -32,11 +51,12 @@ Standalone guides for each role. Each one covers: what the role does, why it mat
 
 | Document | Status | Notes |
 |---|---|---|
-| Combat Medic Guide | 🔴 Needed — HIGH | Most impactful gap. Full medical system + battlefield triage. |
-| Logistics Operator Guide | 🔴 Needed — HIGH | Supply chain mastery. Match-winning role. |
-| Assault Rifleman Guide | 🟡 Needed — MEDIUM | Fire and movement, CQB, fireteam tactics |
-| Machine Gunner / AG Guide | 🟡 Needed — MEDIUM | Two-person doctrine, base of fire |
-| Recon / Scout Guide | 🟡 Needed — MEDIUM | OP selection, reporting, LRRP basics |
+| Combat Medic Guide | ✅ Complete | Full TC3/TCCC-mapped medical system, triage, MASCAS |
+| Logistics Operator Guide | ✅ Complete | Supply economy, depot types, transport ops, AI drivers |
+| Commander Guide | ✅ Complete | 3 command systems, rank gates, AI fire team management |
+| Sniper / Recon Guide | ✅ Complete | FFP selection, rangefinder bindings, target priority, synchronized fire |
+| Machine Gunner / AG Guide | ✅ Complete | Rates of fire, talking guns, AG mechanics, ammo calculus |
+| Assault Rifleman Guide | 🔴 Needed — HIGH | Fire and movement, CQB, fireteam tactics |
 | Anti-Armor Guide | 🟡 Needed — MEDIUM | Vehicle threats, ambush positions |
 | Armor Crew Guide | 🟢 Needed — LOWER | Combined arms, crew coordination |
 | Pilot Guide | 🟢 Needed — LOWER | Transport, CAS, logistics by air |
@@ -78,10 +98,11 @@ For experienced players and unit leaders.
 
 | Document | Status | Notes |
 |---|---|---|
-| Mission Planning Framework | 📝 Needed | 5-paragraph OPORD adapted for WCS sessions |
+| Mission Planning Framework | ✅ Complete | METT-TC adapted OPORD framework, back-brief cycle |
+| Mortar Operator Procedures | ✅ Complete (in CFF SOP) | Self-location, firing solution, elevation interpolation, AI mortar teams |
 | Platoon-Level Coordination Guide | 📝 Needed | Multi-squad operations, SL coordination |
 | LRRP Advanced Procedures | 📝 Needed | Expand Blue Falcon patrol doctrine |
-| Mortar Tables — All Maps | 📝 Needed | Pre-registered TRPs for each map |
+| Mortar Tables — All Maps | 📝 Needed | Pre-registered TRPs per map; ballistic data tables |
 
 ---
 

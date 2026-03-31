@@ -46,63 +46,41 @@ This is not a tryhard document. It is designed to be approachable, consumable, a
 ## 📁 REPOSITORY STRUCTURE
 
 ```
-zen-solutions-arma-kb/
+FIELDCRAFT/
 │
-├── README.md                          ← You are here
-├── CONTRIBUTING.md                    ← How to contribute
-├── ROADMAP.md                         ← What is coming next
-├── DOCTRINE_SOURCES.md               ← US Army source references
+├── README.md                              ← You are here
+├── CONTRIBUTING.md                        ← How to contribute
+├── ROADMAP.md                             ← What is complete and what is planned
+├── DOCTRINE_SOURCES.md                   ← US Army source references
 │
 ├── 00_start_here/
-│   ├── new_player_fast_start.md      ← First 30 minutes guide
-│   ├── wcs_orientation.md            ← WCS-specific onboarding
-│   └── faq.md                        ← Most common questions answered
+│   └── quick_reference_card.md           ← Print/screenshot pocket reference
 │
 ├── 01_foundations/
-│   ├── conflict_game_mode.md         ← How Conflict works
-│   ├── radio_and_logistics.md        ← Supply chain and radio system
-│   ├── base_building.md              ← FOB construction guide
-│   ├── medical_system.md             ← Full medical mechanics
-│   ├── wcs_server_rules.md           ← Rules and seeding culture
-│   └── tactical_fundamentals.md     ← Doctrine-grounded combat basics
+│   ├── wcs_complete_onboarding_guide.md  ← 15-part guide, noob to operator
+│   └── tactical_fundamentals.md         ← Fire & movement, METT-TC, SALUTE, SA framework
 │
 ├── 02_role_guides/
-│   ├── assault_rifleman.md
-│   ├── machine_gunner_ag.md
-│   ├── combat_medic.md
-│   ├── anti_armor.md
-│   ├── recon_scout.md
-│   ├── logistics_operator.md
-│   ├── armor_crew.md
-│   └── pilot.md
+│   ├── README.md                         ← Role guide index
+│   ├── combat_medic.md                   ← TCCC → WCS medical system, MASCAS, triage
+│   ├── logistics_operator.md             ← Supply economy, truck ops, AI drivers
+│   ├── commander.md                      ← Three command systems, rank gates, AI teams
+│   ├── sniper_recon.md                   ← FFP selection, rangefinder, target priority
+│   └── machine_gunner.md                ← Rates of fire, talking guns, AG mechanics
 │
 ├── 03_tactical_sop/
-│   ├── movement_and_formations.md    ← FM 3-21.8 adapted
-│   ├── react_to_contact.md          ← Immediate action drills
-│   ├── ambush_sop.md                ← L-shape, linear, point ambush
-│   ├── call_for_fire_sop.md         ← FM 6-30 adapted
-│   ├── medevac_sop.md               ← 9-Line adapted for Arma
-│   ├── communications_sop.md        ← Radio nets and brevity
-│   └── seeding_protocol.md          ← Server seeding doctrine
+│   ├── movement_and_formations.md        ← ATP 3-21.8: formations, bounding, peel
+│   └── call_for_fire_sop.md             ← FM 6-30 observer procedures + mortar operator
 │
 ├── 04_unit_doctrine/
-│   ├── blue_falcon_fist_sop.md      ← Fire support and recon
-│   ├── cop_establishment_guide.md   ← COP / Pucker Point doctrine
-│   └── mission_planning_framework.md ← Pre-op briefing template
+│   ├── blue_falcon_fist_sop.md          ← Fire support and long-range recon doctrine
+│   └── mission_planning_framework.md    ← 5-paragraph OPORD template for WCS sessions
 │
 ├── 05_map_intelligence/
-│   ├── chernarus.md
-│   ├── new_everon.md
-│   ├── glenwood.md
-│   ├── serhiivka.md
-│   ├── rahhaliyah.md
-│   └── rostov.md
+│   └── README.md                        ← Map intel index (map files in progress)
 │
 └── 06_tools/
-    ├── pucker_point_cff_app.html    ← Live CFF mission tool
-    ├── quick_reference_card.md      ← Print/screenshot reference
-    └── mortar_tables/
-        └── chernarus_pucker_point.md
+    └── pucker_point_cff_app.html        ← Live call-for-fire calculator
 ```
 
 ---
@@ -169,13 +147,13 @@ Read `CONTRIBUTING.md` and open a pull request. All contributions are reviewed b
 
 | Section | Status |
 |---|---|
-| 00 Start Here | 🔶 Partial — orientation complete, fast start and FAQ needed |
-| 01 Foundations | 🔶 Partial — core mechanics covered, tactical fundamentals needs standalone doc |
-| 02 Role Guides | 🔶 Partial — summaries exist, standalone guides needed |
-| 03 Tactical SOP | 🔶 Partial — CFF and comms covered, movement and ambush needed |
-| 04 Unit Doctrine | 💪 Strong — FIST SOP complete, mission planning needed |
-| 05 Map Intelligence | 🔶 Partial — Chernarus strongest, others need full treatment |
-| 06 Tools | ✅ Complete — CFF app and quick reference ready |
+| 00 Start Here | ✅ Complete — Quick Reference Card with rangefinder shortcuts, SALUTE, brevity codes |
+| 01 Foundations | ✅ Complete — Onboarding guide + Tactical Fundamentals (SALUTE/TAX, SA framework, enabler/preventer) |
+| 02 Role Guides | 🔶 Partial — 5 of 9 roles complete: Medic, Logistics, Commander, Sniper/Recon, Machine Gunner |
+| 03 Tactical SOP | 🔶 Partial — Formations and CFF (with full mortar procedures) complete; ambush/react-to-contact needed |
+| 04 Unit Doctrine | ✅ Complete — Blue Falcon FIST SOP + Mission Planning Framework both complete |
+| 05 Map Intelligence | 🔶 Partial — Index exists; individual map files in progress |
+| 06 Tools | ✅ Complete — Pucker Point CFF App (live calculator) |
 
 ---
 
