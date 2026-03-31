@@ -160,7 +160,7 @@ Read `CONTRIBUTING.md` and open a pull request. All contributions are reviewed b
 | 02 Role Guides | 🔶 Partial — 6 of 9 roles complete: Medic, Logistics, Commander, Sniper/Recon, Machine Gunner, Assault Rifleman |
 | 03 Tactical SOP | ✅ Core Complete — Formations, CFF, React to Contact, Ambush, MEDEVAC all complete; base building / convoy SOP still needed |
 | 04 Unit Doctrine | ✅ Complete — Blue Falcon FIST SOP + Mission Planning Framework both complete |
-| 05 Map Intelligence | 🔶 Partial — Index exists; individual map files in progress |
+| 05 Map Intelligence | ✅ Core Complete — 5 of 6 maps documented (Rostov, Serhiivka, New Everon, Glenwood, Rahhaliyah); Chernarus in progress |
 | 06 Tools | ✅ Complete — Pucker Point CFF App (live calculator) |
 
 ---

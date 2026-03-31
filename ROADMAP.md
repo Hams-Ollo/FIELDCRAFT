@@ -2,7 +2,7 @@
 
 This document tracks what exists, what is in progress, and what is planned. Updated as content is added.
 
-> **Last updated:** March 2026 — Phase 2 role guides + Phase 3 tactical SOP batch complete. 4 new documents added and cross-linked.
+> **Last updated:** March 2026 — Map Intelligence batch complete. 5 map files added (Rostov, Serhiivka, New Everon, Glenwood, Rahhaliyah). Faction assignments removed — all files now spawn-side-neutral.
 
 ---
 
@@ -24,6 +24,8 @@ This document tracks what exists, what is in progress, and what is planned. Upda
 | Assault Rifleman Guide | New file — fire team wedge position, buddy pairs, fire discipline, SBF execution |
 | Ambush SOP | New file — L-shape/linear/antiarmor formations, vehicle sequencing, search technique, supply route interdiction |
 | MEDEVAC SOP | New file — full 9-line format, CASEVAC vs MEDEVAC, triage precedence, LZ procedures, buddy aid |
+| Map Intelligence (5 maps) | New files — Rostov, Serhiivka, New Everon, Glenwood, Rahhaliyah; locations, codename rotation system, OCOKA terrain, supply routes, strategic priority, relay chain, mortar TRP notes |
+| All map files | Spawn-side neutrality pass — all faction labels replaced with geographic (north/south/west/east) spawn references |
 
 ---
 
@@ -87,12 +89,12 @@ One document per active WCS map. Each covers: key terrain, supply routes, radio 
 
 | Map | Status | Notes |
 |---|---|---|
-| Chernarus | 🔶 Partial | Pucker Point data strong. Full map intel needed. |
-| New Everon | 🔶 Partial | Tactical profile exists. Full treatment needed. |
-| Glenwood | 🔶 Partial | Basic profile only |
-| Serhiivka | 🔶 Partial | Basic profile only |
-| Rahhaliyah | 🔶 Partial | Basic profile only |
-| Rostov | 🔶 Partial | Basic profile only + seeding data |
+| Chernarus | 🔶 Partial | Pucker Point data strong. Full map intel needed — no screenshot captured yet. |
+| New Everon | ✅ Complete | 15+ locations, peninsula choke, OCOKA, supply routes, relay chain, AAS mode notes |
+| Glenwood | ✅ Complete | 18 locations, river crossing terrain, mines sector, east/west supply routes |
+| Serhiivka | ✅ Complete | 12 locations, W-E axis, urban CQB center, river flank |
+| Rahhaliyah | ✅ Complete | 12 locations, desert terrain, combined-arms doctrine, longest engagement ranges |
+| Rostov | ✅ Complete | 11 locations, N-S axis, AAS mode notes, lake complex terrain |
 
 ---
 
