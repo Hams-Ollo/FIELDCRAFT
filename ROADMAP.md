@@ -2,7 +2,7 @@
 
 This document tracks what exists, what is in progress, and what is planned. Updated as content is added.
 
-> **Last updated:** March 2026 — Phase 2 role guide batch complete. Cross-linking pass complete. Entire repo now wiki-navigable.
+> **Last updated:** March 2026 — Phase 2 role guides + Phase 3 tactical SOP batch complete. 4 new documents added and cross-linked.
 
 ---
 
@@ -20,6 +20,10 @@ This document tracks what exists, what is in progress, and what is planned. Upda
 | Call for Fire SOP | Added rangefinder mortar mode, multi-angle correction, synchronized fire, full Mortar Operator Procedures section |
 | Quick Reference Card | Added rangefinder shortcut table, SALUTE abbreviation |
 | All files | Full wiki-style cross-linking pass — every document now has a See Also footer |
+| React to Contact SOP | New file — 3 Ds doctrine, fire and movement, break contact peel drill, react to ambush |
+| Assault Rifleman Guide | New file — fire team wedge position, buddy pairs, fire discipline, SBF execution |
+| Ambush SOP | New file — L-shape/linear/antiarmor formations, vehicle sequencing, search technique, supply route interdiction |
+| MEDEVAC SOP | New file — full 9-line format, CASEVAC vs MEDEVAC, triage precedence, LZ procedures, buddy aid |
 
 ---
 
@@ -56,7 +60,7 @@ Standalone guides for each role. Each one covers: what the role does, why it mat
 | Commander Guide | ✅ Complete | 3 command systems, rank gates, AI fire team management |
 | Sniper / Recon Guide | ✅ Complete | FFP selection, rangefinder bindings, target priority, synchronized fire |
 | Machine Gunner / AG Guide | ✅ Complete | Rates of fire, talking guns, AG mechanics, ammo calculus |
-| Assault Rifleman Guide | 🔴 Needed — HIGH | Fire and movement, CQB, fireteam tactics |
+| Assault Rifleman Guide | ✅ Complete | Fire team wedge, buddy pairs, fire discipline, SBF and assault element execution |
 | Anti-Armor Guide | 🟡 Needed — MEDIUM | Vehicle threats, ambush positions |
 | Armor Crew Guide | 🟢 Needed — LOWER | Combined arms, crew coordination |
 | Pilot Guide | 🟢 Needed — LOWER | Transport, CAS, logistics by air |
@@ -69,9 +73,9 @@ Procedures that standardize how Zen Solutions and community members execute spec
 
 | Document | Status | Notes |
 |---|---|---|
-| React to Contact Drill | 🔴 Needed — HIGH | The 3 Ds plus immediate action. FM 3-21.8 adapted. |
-| Ambush SOP | 🔴 Needed — HIGH | L-shape, linear, point. Supply truck interdiction. |
-| MEDEVAC SOP | 🟡 Needed — MEDIUM | 9-Line adapted for Arma. Triage priorities. |
+| React to Contact Drill | ✅ Complete | The 3 Ds, hasty attack sequence, fire and movement, break contact, react to ambush |
+| Ambush SOP | ✅ Complete | L-shape, linear, antiarmor; vehicle sequencing; two-man search; supply route interdiction |
+| MEDEVAC SOP | ✅ Complete | Full 9-line format, CASEVAC vs MEDEVAC, LZ marking, triage precedence, buddy aid |
 | Base Building SOP | 🟡 Needed — MEDIUM | Priority build order, defensive layout doctrine |
 | Vehicle / Convoy SOP | 🟢 Needed — LOWER | Route selection, spacing, react to ambush |
 

@@ -386,6 +386,8 @@ TRIAGE RULE:
 
 ## See Also
 
+- [MEDEVAC SOP](../03_tactical_sop/medevac_sop.md) — 9-line request format, CCP procedures, LZ marking, CASEVAC vs MEDEVAC
+- [React to Contact SOP](../03_tactical_sop/react_to_contact.md) — casualty handling during active contact, CCP under fire
 - [Quick Reference Card](../00_start_here/quick_reference_card.md) — MEDEVAC sequence, pre-spawn IFAK checklist
 - [Tactical Fundamentals](../01_foundations/tactical_fundamentals.md) — react to contact, smoke for concealment, fire superiority first
 - [Movement & Formations SOP](../03_tactical_sop/movement_and_formations.md) — squad positioning and casualty collection

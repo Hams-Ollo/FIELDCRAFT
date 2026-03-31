@@ -373,6 +373,8 @@ This is live, unfiltered enemy intelligence. Pass anything actionable to your Co
 
 - [Quick Reference Card](../00_start_here/quick_reference_card.md) — brevity codes, SALUTE abbreviation, CFF format
 - [Movement & Formations SOP](../03_tactical_sop/movement_and_formations.md) — ATP 3-21.8 formations, buddy teams, peel techniques
+- [React to Contact SOP](../03_tactical_sop/react_to_contact.md) — the 3 Ds, fire and movement, break contact, react to ambush
+- [Ambush SOP](../03_tactical_sop/ambush_sop.md) — deliberate ambush planning, L-shape, vehicle interdiction
 - [Call for Fire SOP](../03_tactical_sop/call_for_fire_sop.md) — indirect fire support, OP selection
 - [Sniper / Recon Guide](../02_role_guides/sniper_recon.md) — SALUTE/TAX, target priority, synchronized fire
 - [Commander Guide](../02_role_guides/commander.md) — enabler/preventer at command level

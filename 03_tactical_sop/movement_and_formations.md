@@ -357,6 +357,8 @@ Do not scale up the peel unless you have enough players to maintain meaningful s
 
 ## See Also
 
+- [React to Contact SOP](react_to_contact.md) — formations applied under contact, fire and movement, peel drill
+- [Ambush SOP](ambush_sop.md) — occupation routes, patrol base before ambush, withdrawal from objective
 - [Tactical Fundamentals](../01_foundations/tactical_fundamentals.md) — fire and movement doctrine, react-to-contact, support by fire
 - [Call for Fire SOP](call_for_fire_sop.md) — bounding overwatch enables effective CFF from covered positions
 - [Machine Gunner Guide](../02_role_guides/machine_gunner.md) — MG employment, support by fire rates

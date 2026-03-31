@@ -140,6 +140,8 @@ When two MG teams are operating in the same sector, they coordinate using the **
 
 ## See Also
 
+- [React to Contact SOP](../03_tactical_sop/react_to_contact.md) — SBF role in the hasty attack, fire superiority sequence
+- [Ambush SOP](../03_tactical_sop/ambush_sop.md) — MG initiation (mad minute), vehicle target sequencing, ambush fire control
 - [Movement & Formations SOP](../03_tactical_sop/movement_and_formations.md) — Support by Fire position selection, bounding overwatch
 - [Tactical Fundamentals](../01_foundations/tactical_fundamentals.md) — fire and movement doctrine, L-shape ambush, SBF
 - [Call for Fire SOP](../03_tactical_sop/call_for_fire_sop.md) — coordinating MG suppression with indirect fire missions
