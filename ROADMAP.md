@@ -2,14 +2,25 @@
 
 This document tracks what exists, what is in progress, and what is planned. Updated as content is added.
 
-> **Last updated:** March 2026 — Chernarus map intelligence complete. All 6 active WCS maps now fully documented. Full codename pool, dual-corridor analysis, Pucker Point position intentionally undisclosed.
+> **Last updated:** April 2026 — WCS doctrine integration complete. All 10 WCS official documents extracted and integrated. New role guides: Pilot, Armor Crew, Anti-Armor. New loadout files: NATO and RU. Communications SOP added. CFF SOP polar method added. Sniper/Recon, Combat Medic updated.
 
 ---
 
-## 📋 RECENT UPDATES (March 2026)
+## 📋 RECENT UPDATES (April 2026)
 
 | Item | Change |
 |---|---|
+| **Communications SOP** | New file — full WCS freq plan (13 nets), ground/aviation callsigns, SALUTE/SITREP/ACE formats, pro-word glossary, NATO phonetic alphabet |
+| **NATO Loadouts** | New file — all 24 NATO roles with full gear tables (07_loadouts/) |
+| **RU Loadouts** | New file — all 11 RU roles with full gear tables; NATO vs RU comparison (07_loadouts/) |
+| **Pilot / Co-Pilot / WSO Guide** | New file — transport/attack/MEDEVAC aviation, MNPOPCA check-in, 9-Line CAS, formations, emergency procedures |
+| **Armor Crew Guide** | New file — VC/Gunner/Driver roles, clock-direction comms, convoy spacing, formations, dismount types, bounding |
+| **Anti-Armor Guide** | New file — SMAW employment, two-man AT team tactics, target aim points, vehicle priority |
+| Call for Fire SOP | Added WCS polar CFF section — Hawkeye/Hammer/Hitman callsigns, polar plot format, GitHub ballistic calculator, Vector 21 controls, fire sequence pro-words |
+| Quick Reference Card | Updated medical kit (5/3/3 confirmed), full frequency table, aviation callsigns |
+| WCS Onboarding Guide | Updated Part 8 Communications with full 13-row freq plan and callsign tables |
+| Sniper / Recon Guide | Added WCS SNOT section — RIDACT format, Hitman callsign, 52.0 MHz, target priority, pre/post-mission |
+| Combat Medic Guide | Fixed IFAK quantities (5x Bandage, 3x TQ, 3x AC), added WCS Medical Protocols — Blood Classification I-IV, MIST report, 9-Line MEDEVAC, MASCAS, CCP/Field Hospital tiers |
 | Combat Medic Guide | Added morphine progression, bag drop mechanic, hold-F check, enemy execute note |
 | Logistics Operator Guide | New file — supply economy, depot types, truck/helo ops, XP rules, AI drivers |
 | Commander Guide | New file — traffic controller mindset, 3 systems, rank gates, AI fire teams |
@@ -17,16 +28,11 @@ This document tracks what exists, what is in progress, and what is planned. Upda
 | Machine Gunner / AG Guide | New file — rates of fire, talking guns, AG mechanics, ammo calculus |
 | Movement and Formations SOP | Added buddy teams, pointman doctrine, successive/alternate bounding, buddy rushes, Side Peel, Center Peel |
 | Tactical Fundamentals | Added SALUTE/TAX report formats, Enabler/Preventer framework, 5-element SA, enemy radio looting |
-| Call for Fire SOP | Added rangefinder mortar mode, multi-angle correction, synchronized fire, full Mortar Operator Procedures section |
-| Quick Reference Card | Added rangefinder shortcut table, SALUTE abbreviation |
-| All files | Full wiki-style cross-linking pass — every document now has a See Also footer |
 | React to Contact SOP | New file — 3 Ds doctrine, fire and movement, break contact peel drill, react to ambush |
 | Assault Rifleman Guide | New file — fire team wedge position, buddy pairs, fire discipline, SBF execution |
 | Ambush SOP | New file — L-shape/linear/antiarmor formations, vehicle sequencing, search technique, supply route interdiction |
 | MEDEVAC SOP | New file — full 9-line format, CASEVAC vs MEDEVAC, triage precedence, LZ procedures, buddy aid |
-| Map Intelligence (5 maps) | New files — Rostov, Serhiivka, New Everon, Glenwood, Rahhaliyah; locations, codename rotation system, OCOKA terrain, supply routes, strategic priority, relay chain, mortar TRP notes |
-| All map files | Spawn-side neutrality pass — all faction labels replaced with geographic (north/south/west/east) spawn references |
-| Chernarus map intel | New file — 14 locations, NE-SW dual-corridor axis, Pucker Point concept documented (grid withheld), full OCOKA/supply/relay/mortar treatment |
+| Map Intelligence (6 maps) | Chernarus, New Everon, Glenwood, Serhiivka, Rahhaliyah, Rostov — full OCOKA/supply/relay/mortar treatment |
 
 ---
 
@@ -47,7 +53,9 @@ Core documents that every player needs. Priority is getting new players function
 | Tactical Fundamentals (doctrine-grounded) | ✅ Complete | — |
 | Call for Fire SOP (FM 6-30 adapted) | ✅ Complete | — |
 | Movement and Formations SOP | ✅ Complete | — |
-| Communications SOP | ✅ Complete | — |
+| Communications SOP | ✅ Complete | Full WCS freq plan, callsigns, SALUTE/SITREP/ACE, pro-word glossary |
+| NATO Loadouts | ✅ Complete | 07_loadouts/nato_loadouts.md — 24 roles |
+| RU Loadouts | ✅ Complete | 07_loadouts/ru_loadouts.md — 11 roles |
 | Seeding Protocol | ✅ Complete | — |
 
 ---
@@ -64,9 +72,9 @@ Standalone guides for each role. Each one covers: what the role does, why it mat
 | Sniper / Recon Guide | ✅ Complete | FFP selection, rangefinder bindings, target priority, synchronized fire |
 | Machine Gunner / AG Guide | ✅ Complete | Rates of fire, talking guns, AG mechanics, ammo calculus |
 | Assault Rifleman Guide | ✅ Complete | Fire team wedge, buddy pairs, fire discipline, SBF and assault element execution |
-| Anti-Armor Guide | 🟡 Needed — MEDIUM | Vehicle threats, ambush positions |
-| Armor Crew Guide | 🟢 Needed — LOWER | Combined arms, crew coordination |
-| Pilot Guide | 🟢 Needed — LOWER | Transport, CAS, logistics by air |
+| Anti-Armor Guide | ✅ Complete | SMAW employment, two-man AT tactics, target priority, aim points |
+| Armor Crew Guide | ✅ Complete | VC/Gunner/Driver, clock-direction, formations, dismount types, bounding, rolling cover |
+| Pilot Guide | ✅ Complete | Transport/attack/MEDEVAC, MNPOPCA check-in, 9-Line CAS, formations, emergency procedures |
 
 ---
 

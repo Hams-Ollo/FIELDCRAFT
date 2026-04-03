@@ -1,0 +1,62 @@
+# ─── Project-specific ────────────────────────────────────────────────────────
+# Source documents — member-gated content, not for public distribution
+docx from theorbat library/
+
+# ─── OS ──────────────────────────────────────────────────────────────────────
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.nfs*
+
+# ─── Editors / IDEs ──────────────────────────────────────────────────────────
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains (IntelliJ, Rider, etc.)
+.idea/
+*.iml
+
+# Vim / Neovim
+*.swp
+*.swo
+Session.vim
+
+# Emacs
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-workspace
+
+# ─── Misc ────────────────────────────────────────────────────────────────────
+# Logs
+*.log
+
+# Archives (avoid accidentally committing raw source exports)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Temporary files
+*.tmp
+*.bak
+*.orig

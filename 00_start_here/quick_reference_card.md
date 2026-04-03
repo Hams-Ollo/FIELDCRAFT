@@ -21,7 +21,7 @@
 
 | # | Item |
 |---|---|
-| 1 | 4x Tourniquet, 4x Bandage, 4x Epi, 1x Morphine, 1x Saline |
+| 1 | **5x Bandage, 3x Tourniquet, 3x Ammonium Carbonate** (Epi/Morphine/Saline = medic-dispensed only) |
 | 2 | Map + Compass + Watch + **Laser Range Finder** |
 | 3 | Short-Range Radio (frequency set) |
 | 4 | **NVGs + IR Laser** on primary weapon |
@@ -56,13 +56,32 @@
 
 ---
 
-## 📡 RADIO NETS
+## 📡 RADIO NETS & FREQUENCIES
 
-| Net | Who |
+| Frequency | Net | Who |
+|---|---|---|
+| **41.0 / 42.0 / 43.0 / 44.0** | Squad nets (1-1/1-2/1-3/1-4) | Your squad only |
+| **49.0 MHz** | Medical Net | Medics + 1-9 only |
+| **50.0 MHz** | Platoon Net | Squad Leaders → 1-6 |
+| **50.1 MHz** | Leadership Net | 1-6, 1-7, 1-8, 1-9 |
+| **50.2 MHz** | Logistics/Intel Net | Hermes, 1-7 |
+| **50.3 MHz** | Squad Coordination | Cross-squad deconfliction |
+| **51.0 MHz** | JTAC/Aviation Net | JTAC (1-8), all aircraft |
+| **52.0 MHz** | Mortars/FO/Recon | Hammer/Hawkeye/Hitman |
+
+### Aviation Callsigns
+
+| Callsign | Aircraft |
 |---|---|
-| **Platoon (Long Range)** | Squad Leaders, Pilots, Armor Commanders ONLY |
-| **Squad (Short Range)** | Your squad — keep it relevant |
-| **Proximity** | Local — enemy can hear too |
+| **Gambler** | UH-60 transport |
+| **Angel** | UH-60 MEDEVAC |
+| **Heavy** | UH-60 armed escort |
+| **Nimble** | MH-6 Littlebird (transport) |
+| **Hummingbird** | AH-6 Littlebird (armed CAS) |
+| **Ghost** | AH-6 Littlebird (recon, no ammo) |
+| **Bertha** | CH-47 Chinook |
+| **Trident/Warden** | AH-64 Apache |
+| **Guardian** | AH-1 Cobra |
 
 ---
 
@@ -121,6 +140,7 @@ Example: *"Squad-size, moving north, Grid 079 038, Russian woodland, time now, o
 - [Tactical Fundamentals](../01_foundations/tactical_fundamentals.md) — METT-TC, OCOKA, fire & movement doctrine
 - [Movement & Formations SOP](../03_tactical_sop/movement_and_formations.md) — spacing, formations, bounding
 - [Call for Fire SOP](../03_tactical_sop/call_for_fire_sop.md) — full six-element CFF + mortar operator procedures
+- [Communications SOP](../03_tactical_sop/communications_sop.md) — full frequency table, callsigns, pro-words
 - [Combat Medic Guide](../02_role_guides/combat_medic.md) — full TCCC treatment sequence
 - [Logistics Operator Guide](../02_role_guides/logistics_operator.md) — supply loop detail
 - [Pucker Point CFF App](../06_tools/pucker_point_cff_app.html) — live CFF calculator

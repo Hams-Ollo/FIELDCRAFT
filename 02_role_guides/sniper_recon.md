@@ -242,6 +242,87 @@ This is live intelligence that cannot be obtained any other way. Brief your Comm
 
 ---
 
+## WCS MILSIM — SNOT PROCEDURES
+
+### SNOT Composition and Command
+
+- **Spotter** — senior team member; leads navigation, communications, CFF coordination, and all target designation
+- **Sniper** — executes engagements based on Spotter's designation; focuses entirely on shot execution
+
+The team reports to **1-6** (Platoon Leader) and **1-7** (Platoon Sergeant) and operates independently of line squads.
+
+**Net:** 52.0 MHz — **Hitman** (SNOT/Recon net shared with Hawkeye/FO and Hammer/Mortars)
+
+| Callsign | Role |
+|---|---|
+| **Hitman Actual** | SNOT Spotter (you) when requesting fire support |
+| **Hawkeye** | Forward Observer / FCO |
+| **Hammer One** | Mortar crew |
+
+### RIDACT — Target Engagement Format
+
+RIDACT is the internal callout the Spotter uses to coordinate the Sniper onto target. All six steps must be passed before the Sniper fires:
+
+| Step | Element | What to Say |
+|---|---|---|
+| **R** | Range | *"Range 380."* |
+| **I** | Indication | *"Near the large barn, eastern side."* |
+| **D** | Deflection | *"Right 15 mils"* (mil-based offset from current zero) |
+| **A** | Aiming | *"Aim for center mass / upper body."* |
+| **C** | Confirmation | *"Do you have the target?"* — Sniper: *"Confirmed."* |
+| **T** | Time to Fire | Count down: *"Five, four, three..."* — Sniper **fires on 3** |
+
+The Sniper does **not** fire before hearing "three" in the count. This allows the Spotter to abort if the situation changes.
+
+### Target Priority
+
+Engage in this order when multiple targets are present:
+
+1. **Enemy Sniper/SNOT teams** — immediate threat to your own team and leadership
+2. **Crew-served / heavy weapons** — MG nests, mortars, ATGM crews
+3. **Enemy leadership** — SLs, PLT-level, command nodes
+4. **Machine gun teams** — general-purpose MGs
+5. **Grounded aircraft** — immobilized helicopters, pilots
+
+### Pre-Mission Responsibilities
+
+1. Attend all command-level meetings (mission planning, order brief)
+2. Plan **three Observation Posts** (primary / secondary / tertiary) with verified sightlines into the objective
+3. Confirm OPs with Platoon Leader before mission start
+4. Coordinate patrol route with SL or PLT SGT to avoid blue-on-blue
+
+### Movement Spacing
+
+| Terrain | Spacing |
+|---|---|
+| Open terrain | 100–200 m trail distance |
+| Dense vegetation / urban | 50–100 m trail distance |
+
+Maintain spacing to avoid both being eliminated by a single contact. Spotter navigates; Sniper follows.
+
+### Requesting Fire Support (Polar CFF from SNOT)
+
+When SNOT needs mortar support, the Spotter calls as **Hitman Actual** to **Hawkeye** on 52.0 MHz using the polar observation format:
+
+```
+Hitman: "Hawkeye, this is Hitman Actual, standby for fire mission."
+Hawkeye: "Hitman Actual, send it."
+Hitman: "Fire mission, adjust fire, HE."
+         "FO grid: [10-digit], elevation [X] meters."
+         "Target: bearing [XXX] degrees, distance [XXX] meters, height difference [±XX] meters."
+         "At my command, requesting feedback."
+```
+
+See [Call for Fire SOP](../03_tactical_sop/call_for_fire_sop.md) for the full polar procedure and Vector 21 controls.
+
+### Post-Mission
+
+1. Submit BDA to Platoon Leader: *"[X] enemy KIA, crew-served weapon destroyed, etc."*
+2. Debrief Spotter and Sniper together — time delays, RIDACT issues, target ID
+3. Route exfil through pre-planned exfil corridor; avoid reverse route if compromised
+
+---
+
 ## See Also
 
 - [Call for Fire SOP](../03_tactical_sop/call_for_fire_sop.md) — six-element CFF, adjustment procedures, mortar operator handbook

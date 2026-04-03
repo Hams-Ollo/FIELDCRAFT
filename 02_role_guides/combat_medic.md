@@ -255,13 +255,12 @@ Carry the largest available medical backpack. Suggested minimum contents:
 | Morphine Auto-injector | 4–5x | Recovery acceleration. |
 
 ### Personal IFAK (always carry regardless of role)
-Every player carries a baseline IFAK and medics use the patient's supplies first before drawing from their own pack. Your personal IFAK:
+Every player carries a baseline IFAK and medics use the patient's supplies first before drawing from their own pack. Your personal IFAK (confirmed in-game loadout across all WCS roles):
 
-- 4x Tourniquet
-- 4x Bandage
-- 4x Epinephrine
-- 1x Morphine
-- 1x Saline Bag
+- 5x Bandage
+- 3x Tourniquet
+- 3x Ammonium Carbonate (Epi substitute — dispensed by medic only in ACE)
+- Morphine, Saline, and Epinephrine auto-injectors are **medic-dispensed items** — infantry do not spawn with them
 
 ### Smoke Grenades
 Carry more smoke than any other role. White smoke is your most important tactical tool as a medic. Minimum 4x white smoke. You will use them.
@@ -381,6 +380,89 @@ TRIAGE RULE:
 *Doctrine basis: US Army TC3 / TCCC (Tactical Combat Casualty Care)*
 *Game system: Arma Reforger vanilla medical + Realism Overhaul Medical (WCS mod stack)*
 *"A dead medic treats nobody. Fire superiority first." — TC3 Care Under Fire principle*
+
+---
+
+## WCS MILSIM — ADVANCED MEDICAL PROTOCOLS
+
+*From the WCS Medical Handbook. These procedures apply on WCS servers with the full medical mod stack.*
+
+### Medical Net — 49.0 MHz
+
+All medical coordination goes on **49.0 MHz**. Medics monitor this net alongside their squad net.
+
+- **ANGEL** — MEDEVAC helicopter callsign (UH-60 MEDEVAC). Use when requesting rotary wing casualty extraction.
+- **Angel Flight** convention: request via 9-Line on 49.0 MHz
+
+### Blood Loss Classification
+
+Use this table to gauge severity and prioritize treatment:
+
+| Class | Blood Loss | Signs | WCS Equivalent |
+|---|---|---|---|
+| **I** | < 750 mL | Normal vitals, mild pallor | Screen tint barely noticeable |
+| **II** | 750–1,500 mL | Anxious, increased HR | Desaturation visible on screen edges |
+| **III** | 1,500–2,000 mL | Confused, hypotension | Strong screen desaturation, unsteady |
+| **IV** | > 2,000 mL | Unconscious / near death | Patient down — requires immediate saline + epi |
+
+Class III–IV require **immediate saline administration** before epinephrine.
+
+### MIST Report — Casualty Handoff Format
+
+When handing off a casualty to another medic, the field hospital, or calling for MEDEVAC, report in MIST format:
+
+| Element | Meaning | Example |
+|---|---|---|
+| **M** | Mechanism of injury | "Small arms, gunshot wound right leg" |
+| **I** | Injuries observed | "Two GSW lower limb, one chest wound" |
+| **S** | Signs / Symptoms | "Heavy blood loss, unconscious" |
+| **T** | Treatment given | "Two TQs applied, one bandage, one saline" |
+
+*"Litter [name]: Mechanism — small arms chest wound. Injuries — one thoracic GSW. Signs — unconscious, severe blood loss. Treatment — bandaged, one saline administered."*
+
+### 9-Line MEDEVAC Request (Medical Version)
+
+Call on **49.0 MHz** to Angel (MEDEVAC pilot):
+
+| Line | Element | Example |
+|---|---|---|
+| 1 | Location of pickup site | "Grid 04527-12345" |
+| 2 | Radio frequency and callsign | "49.0, Bravo Four Six" |
+| 3 | Number of patients by precedence | "1 Urgent, 2 Priority" |
+| 4 | Special equipment required | "None" |
+| 5 | Number of patients by type | "2 Litter, 1 Ambulatory" |
+| 6 | Security at pickup site | "Secure" / "Enemy fire" |
+| 7 | Method of marking LZ | "Smoke" / "IR strobe" |
+| 8 | Nationality and status | "Military, US" |
+| 9 | NBC contamination | "None" |
+
+### MASCAS Triage Categories
+
+Used for mass casualty events (3+ patients):
+
+| Color | Category | Action |
+|---|---|---|
+| **Red** | Immediate | Life-threatening — treat now |
+| **Yellow** | Delayed | Serious but stable — can wait |
+| **Green** | Minimal | Walking wounded — self-treat |
+| **Black** | Expectant | Unsurvivable given available resources |
+
+**Fast sweep procedure for MASCAS:** Run through all casualties applying tourniquets (Red first). Then circle back for full treatment in Red → Yellow → Green order.
+
+### CCP and Field Hospital Setup
+
+**Casualty Collection Point (CCP):** A rally point near the objective where casualties are moved once bleeding is controlled. Ideally:
+- Covered from direct fire (building, reverse slope)
+- Marked with **white smoke** for identification
+- Guarded by one rifleman minimum while medic works
+
+**Field Hospital:** A permanent structure built at the FOB. Required for full injury recovery when Morphine alone is insufficient. Medics should know the grid of the nearest Field Hospital before every mission.
+
+Tier of care:
+1. **Self-aid / buddy aid** — field (tourniquet + bandage)
+2. **CCP** — medic stabilizes (full treatment sequence)
+3. **Field Hospital** — full recovery, resupply
+4. **MEDEVAC** — helicopter extraction to field hospital for casualties unable to walk
 
 ---
 

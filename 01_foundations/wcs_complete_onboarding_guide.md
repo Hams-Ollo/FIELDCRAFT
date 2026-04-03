@@ -315,13 +315,42 @@ This role wins matches. While others fight, logistics operators build the infras
 
 > ⚠️ **SERVER RULE:** Use English in ALL platoon voice channels. No music or spam. Squad Leaders, Pilots, and Armor Commanders **MUST** have active microphones.
 
-### Radio Net Structure
+### Radio Frequency Plan
 
-| Net | Who Uses It / Purpose |
+| Frequency | Net | Who Uses It |
+|---|---|---|
+| **41.0 MHz** | Squad 1 net | 1-1 elements (fire teams: 41.1–41.9) |
+| **42.0 MHz** | Squad 2 net | 1-2 elements (fire teams: 42.1–42.9) |
+| **43.0 MHz** | Squad 3 net | 1-3 elements (fire teams: 43.1–43.9) |
+| **44.0 MHz** | Weapons Squad net | 1-4 elements (fire teams: 44.1–44.9) |
+| **49.0 MHz** | Medical net | Squad Medics, Combat Medics, 1-9 (PM) only |
+| **50.0 MHz** | Platoon net | Squad Leaders → 1-6; critical traffic only |
+| **50.1 MHz** | Leadership net | 1-6, 1-7, 1-8, 1-9 |
+| **50.2 MHz** | Logistics/Intel net | Hermes (logistics), managed by 1-7 |
+| **50.3 MHz** | Squad coordination | Cross-squad deconfliction; keeps 50.0 clear |
+| **51.0 MHz** | JTAC/Aviation net | JTAC (1-8), all aircraft check-in |
+| **51.1 MHz** | AO 1 Ops | Dealer 1 aviation ops |
+| **51.2 MHz** | AO 2 Ops | Dealer 2 aviation ops |
+| **52.0 MHz** | Mortars/FO/Recon | Hammer (mortars), Hawkeye (FO), Hitman (SNOT) |
+
+> **Riflemen** are on squad net only. **FTLs** monitor squad net + fire team net. **SLs** monitor squad net + 50.0. **CLS radios remain OFF** unless calling MASCAS.
+
+### Callsign Reference
+
+| Callsign | Role |
 |---|---|
-| **Platoon Net (Long Range)** | Squad Leaders, Pilots, Armor Commanders ONLY. Macro strategy, calling transport, coordinating multi-squad pushes |
-| **Squad Net (Short Range)** | Your squad. Combat chatter and immediate firefight coordination. Keep it relevant |
-| **Proximity Chat** | Anyone nearby — friend or foe can hear. Local coordination only |
+| **1-1 / 1-2 / 1-3** | Line Squads |
+| **1-4** | Weapons Squad |
+| **1-5** | AT/AA Squad |
+| **1-6** | Platoon Leader |
+| **1-7** | Platoon Sergeant |
+| **1-8** | JTAC/CCT (callsign: Dealer) |
+| **1-9** | Platoon Medic |
+| **Hammer** | Mortar Section |
+| **Hermes** | Logistics |
+| **Tempest** | Armor (Tempest 1, 2...) |
+
+**Aviation:** Gambler (UH-60 transport), Angel (UH-60 MEDEVAC), Heavy (UH-60 armed), Nimble (MH-6 light transport), Hummingbird (AH-6 armed CAS), Ghost (AH-6 recon), Bertha (CH-47), Trident/Warden (AH-64), Guardian (AH-1)
 
 ### Brevity Codes
 

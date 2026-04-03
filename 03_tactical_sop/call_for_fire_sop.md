@@ -340,6 +340,109 @@ The FO has two tools for measuring miss distance:
 
 ---
 
+## WCS MILSIM — SPECIFIC PROCEDURES
+
+*These procedures apply specifically to WCS Milsim operations where the M252 mortar and WCS doctrine are in use. They supplement the FM 6-30 doctrine above.*
+
+### WCS Callsigns (52.0 MHz)
+
+| Callsign | Role |
+|---|---|
+| **Hawkeye Actual** | Forward Observer (FO) — calls the mission |
+| **Hammer One** | Mortar/FCO — executes the mission |
+| **Hitman Actual** | SNOT/Recon spotter requesting fire support |
+
+All CFF traffic flows on **52.0 MHz** (Hammer/Hawkeye/Hitman net).
+
+### WCS CFF Transmission Format
+
+The WCS format adds a step: the observer requests, then awaits FCO acknowledgment before transmitting data.
+
+```
+FO:   "Hammer One, Hawkeye Actual, standby for fire mission."
+FCO:  "Hawkeye Actual, Hammer One, send it."
+FO:   [Warning Order] "Fire mission, adjust fire, HE."
+FO:   [Target Location] "Grid [10-digit]" — OR polar method (see below)
+FO:   [Method] "HE, [N] rounds, at my command."
+FCO:  [Calculates, loads] "Ready."
+FO:   "Fire."
+FCO:  "SHOT!" (round leaves the tube)
+FO:   [5-10 sec before impact] "SPLASH!" (warn friendlies)
+FO:   [observes] "IMPACT!" [then corrections or FFE]
+```
+
+### Polar Observation Method (Preferred for WCS)
+
+When the FO cannot determine the target's absolute grid, they provide a **polar plot** — their own location plus bearing and distance to the target. The FCO inputs this to the ballistic calculator.
+
+**FO transmits:**
+1. **FO 10-digit grid** + elevation (meters): *"FO grid: 04523-12340, elevation 8 meters."*
+2. **Bearing** to target (degrees true): *"Bearing 057 degrees."*
+3. **Distance** to target (meters): *"Distance 207 meters."*
+4. **Height difference** (target vs FO, ±): *"Height difference: plus 14 meters."*
+
+**FCO enters into ballistic calculator → outputs:**
+- Elevation setting (mils)
+- Azimuth setting (mils)
+- Time of Flight (seconds)
+
+### External Ballistic Calculator (Recommended)
+
+> **GitHub:** [arcticfr33d0m/ArmaReforgerMortarCalculator](https://github.com/arcticfr33d0m/ArmaReforgerMortarCalculator)
+
+The external calculator handles all the math for polar plotting. Input:
+- Mortar grid (10-digit)
+- FO grid (10-digit)
+- Bearing from FO to target
+- Distance FO to target
+- Elevation difference
+- Ammunition type
+
+Output: Elevation (mils), Azimuth (mils), Time of Flight.
+
+### Vector 21 Controls for Polar Input
+
+The Vector 21 rangefinder is the FO's primary measurement tool:
+
+| Action | Input |
+|---|---|
+| Measure range only | Hold `R` |
+| Measure range + vertical difference | Hold `R`, then tap `R` again |
+| Measure azimuth (bearing) | Hold `V` |
+| Measure range + azimuth simultaneously | Hold `R` + `V` |
+| Fall of Shot mode (measure corrections) | Tap `V`, hold `V`, tap `C` |
+
+**Getting a 10-digit grid from the map:**
+- Use DAGR/Orion GPS: read Eastings first, then Northings
+- 10-digit grid = 5 easting digits + 5 northing digits
+
+### Fire Sequence Calls
+
+| Call | Who | When |
+|---|---|---|
+| `"SHOT!"` | FCO/Mortar | Round leaves tube |
+| `"SPLASH [time]!"` | FO | 5-10 seconds before impact — warn friendlies |
+| `"IMPACT!"` | FO | Round impacts — observe effects |
+| Corrections | FO | If adjustment needed: "Add 80, Right 30" |
+| `"Fire for effect."` | FO | On target — continue |
+| BDA | FO | After FFE: battle damage assessment |
+| `"End of mission."` | FO | When target neutralized |
+
+**ACE Report (mortar crew to FCO after FFE):**
+*"HE: [X] rounds remaining, Smoke: [X], ILLUM: [X]."*
+
+### Advanced WCS Techniques
+
+**Creeping Strike** — Walk rounds forward in 50m increments to clear protected infantry positions step by step.
+
+**Shoot and Scoot** — Fire 2-3 rounds, displace mortar position before enemy can locate and return fire. Especially critical when enemy mortars are active.
+
+**Smoke Screen** — Fire 4+ WP/smoke rounds across a front to conceal squad movement. Coordinate with SL before firing — smoke direction (wind) matters.
+
+**Hasty Defensive Barrage** — Pre-register a TRP at the most likely enemy avenue of approach before the mission. If enemy breaks through, FO has an immediate FFE solution ready with zero calculation time.
+
+---
+
 ## See Also
 
 - [Sniper / Recon Guide](../02_role_guides/sniper_recon.md) — observer role, rangefinder mortar mode, synchronized sniper + indirect fire
